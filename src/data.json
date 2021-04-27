@@ -1,0 +1,52 @@
+[
+    {
+      "name":"Fruits Page",
+      "url":"https://gamzeumac.github.io/Fruitspage/",
+      "type":"frontend",
+      "programmingLanguages": "['Html','Css']"
+    },
+    {
+        "name":" Calculator",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"frontend",
+        "programmingLanguages": "['Html','Css','JS']"
+    },
+    {
+        "name":" Perseverance Rover",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"frontend",
+        "programmingLanguages": "['Html','Css','Bootstrap']"
+    },
+    {
+        "name":" Portfolio",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"frontend",
+        "programmingLanguages": "['Html','Css','Gatsby']"
+    },
+    {
+        "name":" Music Player",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"frontend",
+        "programmingLanguages": "['Html','Css','JS']"
+    },
+    {
+        "name":" Recipe",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"frontend",
+        "programmingLanguages": "['React', 'Css']"
+    },
+    {
+        "name":" City Guide",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"frontend",
+        "programmingLanguages": "['React', 'Bootstrap']"
+    },
+    {
+        "name":" Blog",
+        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "type":"full stack",
+        "programmingLanguages": "['React', 'Next Js', ''Mongodb', 'Express Js']"
+    }
+
+    
+  ]
