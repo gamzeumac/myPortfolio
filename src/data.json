@@ -3,50 +3,59 @@
       "name":"Fruits Page",
       "url":"https://gamzeumac.github.io/Fruitspage/",
       "type":"frontend",
-      "programmingLanguages": "['Html','Css']"
+      "programmingLanguages": ["Html","Css"],
+      "image": "../images/fruits.png"
     },
     {
         "name":" Calculator",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://gamzeumac.github.io/Calculator/",
         "type":"frontend",
-        "programmingLanguages": "['Html','Css','JS']"
+        "programmingLanguages": ["Html","Css","JS"],
+        "image": "../images/calcu.png"
     },
     {
         "name":" Perseverance Rover",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://gamzeumac.github.io/PerseveranceRover/",
         "type":"frontend",
-        "programmingLanguages": "['Html','Css','Bootstrap']"
+        "programmingLanguages": ["Html","Css","Bootstrap", "JS"]
     },
     {
         "name":" Portfolio",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://gamzegatsbyportfolio.netlify.app/",
         "type":"frontend",
-        "programmingLanguages": "['Html','Css','Gatsby']"
+        "programmingLanguages": ["Html","Css","Gatsby"]
     },
     {
         "name":" Music Player",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://gamzeumac.github.io/MusicPlayer/",
         "type":"frontend",
-        "programmingLanguages": "['Html','Css','JS']"
+        "programmingLanguages": ["Html","Css","JS"]
     },
     {
         "name":" Recipe",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://gamzeumac.github.io/api/",
         "type":"frontend",
-        "programmingLanguages": "['React', 'Css']"
+        "programmingLanguages": ["React", "Css"]
     },
     {
         "name":" City Guide",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://github.com/gamzeumac/cityguide",
         "type":"frontend",
-        "programmingLanguages": "['React', 'Bootstrap']"
+        "programmingLanguages": ["React", "Bootstrap"]
+    },    
+    {
+        "name":" Music App",
+        "url":"https://gamzeumac.github.io/MusicApp/",
+        "type":"full stack",
+        "programmingLanguages": ["JS","Html","Css"]
     },
     {
         "name":" Blog",
-        "url":"https://gamzeumac.github.io/Fruitspage/",
+        "url":"https://github.com/gamzeumac/blog",
         "type":"full stack",
-        "programmingLanguages": "['React', 'Next Js', ''Mongodb', 'Express Js']"
+        "programmingLanguages": ["React", "Next Js", "Mongodb", "Express Js"]
     }
+
 
     
   ]
