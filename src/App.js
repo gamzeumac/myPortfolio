@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
-import NavBar from './components/NavBar';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+/* import NavBar from './components/NavBar';
 import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Footer from './components/Footer'; */
 
 
 function App() {
@@ -14,8 +14,10 @@ function App() {
 
     <Router>
       <div className="App">
-        <NavBar/>
-        <Header />
+        <p>hallo</p>
+{/*         <NavBar/> */}
+        
+{/*         <Header />
 
         <Switch>
           <Route path="/Project">
@@ -36,7 +38,7 @@ function App() {
           </Route>
         </Switch>
 
-        <Footer />
+        <Footer /> */}
       </div>
     </Router>
   );
