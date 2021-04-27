@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+/**/
+:root {
+  --primary-white: #ffffff;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: rgb(102, 102, 102);
+  --primary-orange: rgb(250, 171, 0);
+  --primary-dark: rgb(52, 58, 64);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-green: green;
+}
+
+body {
+font-family: "Roboto Condensed", sans-serif !important;
+}
+
+
+.logo {
+    margin-top: 1rem;
+    width: 5rem;
+    background-size: cover;
+
+    
+  }
+nav a.nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+  }
+  
+  nav ul li {
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid var(--primary-dark);
+  }
+  
+  .navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem !important;
+  }
+  .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
+      background-color: var(--primary-orange);
+    
+  }
+  
+  .navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-orange);
+  }
+
+.header-wraper {
+    position: relative;
+    background: url(./images/header2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .main-info h1 {
+    color: var(--primary-orange);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .typed-text {
+    font-size: 2rem;
+    color: var(--primary-white);
+    margin: 2rem;
+  }
+  
+  @media(max-width: 768px) {
+    .main-info h1 {
+      font-size: 1.7rem !important;
+    }
+    .typed-text {
+      font-size: 1.3rem !important;
+  
+    }
+  }
+.tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+  }
+  

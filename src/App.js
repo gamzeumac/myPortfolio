@@ -1,8 +1,10 @@
 import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-/* import NavBar from './components/NavBar';
+import Particles from "react-particles-js";
+import NavBar from './components/NavBar';
 import Header from './components/Header';
-import About from './components/About';
+/* import About from './components/About';
 import Project from './components/Project';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
@@ -14,13 +16,32 @@ function App() {
 
     <Router>
       <div className="App">
-        <p>hallo</p>
-{/*         <NavBar/> */}
-        
-{/*         <Header />
+      <Particles
+        className="particles-canvas"
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900
+              }
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#f9ab00"
+              }
+            }
+          }
+        }}
+      />
+        <NavBar/>
+        <Header />
 
         <Switch>
-          <Route path="/Project">
+         {/*  <Route path="/Project">
             <Project />
           </Route>
           <Route path="/About">
@@ -31,14 +52,14 @@ function App() {
           </Route>
           <Route path="/Contact">
             <Contact />
-          </Route>
+          </Route> */}
 
           <Route exact path="/">
-            <Header />
+           {/*  <Header /> */}
           </Route>
         </Switch>
 
-        <Footer /> */}
+       {/*  <Footer /> */}
       </div>
     </Router>
   );
