@@ -7,9 +7,9 @@ import Header from './components/Header';
  import About from './components/About';
 import Project from './components/Project';
 
-/* import Skills from './components/Skills';
-import Contact from './components/Contact';
-import Footer from './components/Footer';  */
+import Skills from './components/Skills';
+/* import Contact from './components/Contact';
+import Footer from './components/Footer'; */
 
 
 function App() {
@@ -44,6 +44,7 @@ function App() {
         <Header />
         <About />
         <Project/>
+        <Skills/>
 
         <Switch>
          {/*  <Route path="/Project">
