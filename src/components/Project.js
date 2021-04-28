@@ -1,47 +1,50 @@
 import React from 'react'
 import data from "../data.json";
 import "react-popupbox/dist/react-popupbox.css";
-import {Row, Col, Card, Button} from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 
 
 
 const Project = () => {
 
-    return (<>
-    <h1 className="text-uppercase text-center py-5">Portfolio</h1>
-      <Row>
-        
-  
-        
- 
-    {data.map((item,index) => {
-         return <Col lg={3} className="mb-4 p-3">
-           
-         <Card style={{ width: '20rem' , height:"15rem" }}><Button variant="secondary">
-         <Card.Img variant="top" src="{item.image} " />
-         <Card.Body>
-           <Card.Title>{item.name} </Card.Title>
-           <Card.Text>
-           <div>
+  console.log(data);
+
+  return (<>
+    <h1 className="text-uppercase text-center">Portfolio</h1>
+    <Container fluid>
+      <Row className="justify-content-center">
+
+        {data.map((item, index) => {
+          return <Col lg={3} className="m-4 justify-content-center">
+
+            <div class="image-container">
+              <img height="auto" width="100%" src={item.image} alt="images" />
+              <div class="after">
+                <div className="project-text">{item.name}</div>
+                
+                <div>
              Programming Langaugeas <ul>
                {item.programmingLanguages.map((item,index)=>{
                  return <li>{item}</li>
                })}
              </ul>
-           </div>     
-           </Card.Text>
-            <div src={item.url} ></div>
-         </Card.Body></Button>
+           </div>  
+           
+             <Button src={item.url} target="_blank">Click Me</Button>
+             
+              
+              </div>
+            </div>
 
-       </Card>
-       
-       </Col> 
-    })}
+          </Col>
+        })}
 
-          </Row>
+      </Row>
+    </Container>
 
-   </> )
+
+  </>)
 }
 
 export default Project;
