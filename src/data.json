@@ -4,7 +4,7 @@
       "url":"https://gamzeumac.github.io/Fruitspage/",
       "type":"frontend",
       "programmingLanguages": ["Html","Css"],
-      "image": "../images/fruits.png"
+      "image": "./images/fruits.png"
     },
     {
         "name":" Calculator",
@@ -17,45 +17,49 @@
         "name":" Perseverance Rover",
         "url":"https://gamzeumac.github.io/PerseveranceRover/",
         "type":"frontend",
-        "programmingLanguages": ["Html","Css","Bootstrap", "JS"]
+        "programmingLanguages": ["Html","Css","Bootstrap", "JS"],
+        "image": "../images/perse.png"
     },
     {
         "name":" Portfolio",
         "url":"https://gamzegatsbyportfolio.netlify.app/",
         "type":"frontend",
-        "programmingLanguages": ["Html","Css","Gatsby"]
+        "programmingLanguages": ["Html","Css","Gatsby"],
+        "image": "../images/gatsby.png"
     },
     {
         "name":" Music Player",
         "url":"https://gamzeumac.github.io/MusicPlayer/",
         "type":"frontend",
-        "programmingLanguages": ["Html","Css","JS"]
+        "programmingLanguages": ["Html","Css","JS"],
+        "image": "../images/musicplayer.png"
     },
     {
         "name":" Recipe",
         "url":"https://gamzeumac.github.io/api/",
         "type":"frontend",
-        "programmingLanguages": ["React", "Css"]
+        "programmingLanguages": ["React", "Css"],
+        "image": "../images/recipe.png"
     },
     {
         "name":" City Guide",
         "url":"https://github.com/gamzeumac/cityguide",
         "type":"frontend",
-        "programmingLanguages": ["React", "Bootstrap"]
+        "programmingLanguages": ["React", "Bootstrap"],
+        "image": "../images/cityguide.png"
     },    
     {
         "name":" Music App",
         "url":"https://gamzeumac.github.io/MusicApp/",
         "type":"full stack",
-        "programmingLanguages": ["JS","Html","Css"]
+        "programmingLanguages": ["JS","Html","Css"],
+        "image": "../images/MusicApp.png"
     },
     {
         "name":" Blog",
         "url":"https://github.com/gamzeumac/blog",
         "type":"full stack",
-        "programmingLanguages": ["React", "Next Js", "Mongodb", "Express Js"]
-    }
-
-
-    
+        "programmingLanguages": ["React", "Next Js", "Mongodb", "Express Js"],
+        "image": "../images/Blog.png"
+    }    
   ]

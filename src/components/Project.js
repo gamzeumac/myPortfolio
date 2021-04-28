@@ -1,8 +1,7 @@
 import React from 'react'
 import data from "../data.json";
 import "react-popupbox/dist/react-popupbox.css";
-import fruits from "../images/fruits.png";
-import perse from "../images/perse.png";
+
 
 
 
@@ -19,7 +18,7 @@ const Project = () => {
             <br/>
             <div>Project Type: {item.type}</div>
           <div className="portfolio-image-box">
-         <a href={item.url} target="_blank" rel="noreferrer">   <img className="portfolio-image" src={fruits} alt="Fruits Project..." /></a>           
+         <a href={item.url} target="_blank" rel="noreferrer"> <img className="portfolio-image" src={item.image} width="15rem" alt="" /></a>           
            <div>
              Programming Langaugeas <ul>
                {item.programmingLanguages.map((item,index)=>{
