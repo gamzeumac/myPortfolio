@@ -4,7 +4,7 @@
       "url":"https://gamzeumac.github.io/Fruitspage/",
       "type":"frontend",
       "programmingLanguages": ["Html","Css"],
-      "image": "./images/fruits.png"
+      "image": "../images/fruits.png"
     },
     {
         "name":" Calculator",
