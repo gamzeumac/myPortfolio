@@ -4,62 +4,71 @@
       "url":"https://gamzeumac.github.io/Fruitspage/",
       "type":"frontend",
       "programmingLanguages": ["Html","Css"],
-      "image": "../images/fruits.png"
+      "image": "../images/fruits.png",
+      "repo":"https://github.com/gamzeumac/Fruitspage"
     },
     {
         "name":" Calculator",
         "url":"https://gamzeumac.github.io/Calculator/",
         "type":"frontend",
         "programmingLanguages": ["Html","Css","JS"],
-        "image": "../images/calcu.png"
+        "image": "../images/calcu.png",
+        "repo":"https://github.com/gamzeumac/Calculator"
     },
     {
         "name":" Perseverance Rover",
         "url":"https://gamzeumac.github.io/PerseveranceRover/",
         "type":"frontend",
         "programmingLanguages": ["Html","Css","Bootstrap", "JS"],
-        "image": "../images/perse.png"
+        "image": "../images/perse.png",
+        "repo":"https://github.com/gamzeumac/PerseveranceRover"
     },
     {
         "name":" Portfolio",
         "url":"https://gamzegatsbyportfolio.netlify.app/",
         "type":"frontend",
         "programmingLanguages": ["Html","Css","Gatsby"],
-        "image": "../images/gatsby.png"
+        "image": "../images/gatsby.png",
+        "repo":"https://github.com/gamzeumac/gatsbyportfolio"
     },
     {
         "name":" Music Player",
         "url":"https://gamzeumac.github.io/MusicPlayer/",
         "type":"frontend",
         "programmingLanguages": ["Html","Css","JS"],
-        "image": "../images/musicplayer.png"
+        "image": "../images/musicplayer.png",
+        "repo":"https://github.com/gamzeumac/MusicPlayer"
     },
     {
         "name":" Recipe",
         "url":"https://gamzeumac.github.io/api/",
         "type":"frontend",
         "programmingLanguages": ["React", "Css"],
-        "image": "../images/recipe.png"
+        "image": "../images/recipe.png",
+        "repo":"https://github.com/gamzeumac/api"
     },
     {
         "name":" City Guide",
         "url":"https://github.com/gamzeumac/cityguide",
         "type":"frontend",
         "programmingLanguages": ["React", "Bootstrap"],
-        "image": "../images/cityguide.png"
+        "image": "../images/cityguide.png",
+        "repo":"https://github.com/gamzeumac/ReactForumPage"
     },    
     {
         "name":" Music App",
         "url":"https://gamzeumac.github.io/MusicApp/",
         "type":"full stack",
         "programmingLanguages": ["JS","Html","Css"],
-        "image": "../images/MusicApp.png"
+        "image": "../images/MusicApp.png",
+        "repo":"https://github.com/gamzeumac/MusicApp"
     },
     {
         "name":" Blog",
         "url":"https://github.com/gamzeumac/blog",
         "type":"full stack",
         "programmingLanguages": ["React", "Next Js", "Mongodb", "Express Js"],
-        "image": "../images/Blog.png"
+        "image": "../images/Blog.png",
+        "repo":"https://github.com/gamzeumac/blog"
     }    
   ]

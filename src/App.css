@@ -139,3 +139,18 @@ nav a.nav-link {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.icons{
+
+
+  justify-content: space-between;
+  align-items: baseline;
+  display: inline;
+ 
+}
+
+.others{
+  justify-content: space-between;
+  align-items: baseline;
+  display: inline;
+}

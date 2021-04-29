@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-import icon1 from "../images/html.png" ;
+
 
 
 const About = () => {
@@ -13,14 +13,20 @@ const About = () => {
 
 
                 <Row >
-                    <Col xs={12} md={6} lg={6}><img className="" src=""  alt=""/>Programming
-                    <div><img src={icon1} alt="" /></div> 
-                    <div><img src="https://www.iconfinder.com/icons/317756/badge_css_css3_achievement_award_reward_trophy_icon" alt="" /> </div> 
-                    <div>Bootstrap<ProgressBar animated now={45} /></div> 
-                    <div>JS<ProgressBar animated now={45} /></div> 
-                    <div>React<ProgressBar animated now={45} /></div> 
-                    <div>Express JS<ProgressBar animated now={45} /></div> 
-                    <div>Gatsby<ProgressBar animated now={45} /></div> 
+                    <Col xs={12} md={6} lg={6}>  <div > <h4> Programming</h4>
+                    <div className="icons" ><img src="images/html.png" alt="" /></div> 
+                    <div className="icons" ><img src="images/css1.png" alt="" /></div> 
+                    <div className="icons" ><img src="images/bootstrap.png" alt=""/> </div>
+                    <div className="icons" ><img src="images/js.png" alt="" /> </div>
+                    <div className="icons" ><img src="images/sass.png" alt="" /> </div>
+                    <div>
+                    <div className="icons" ><img src="images/nodejs.png" alt="" /> </div>
+                    <div className="icons" ><img src="images/react.png" alt="" /> </div>
+                    <div className="icons" ><img src="images/typescript.png" alt="" /> </div>
+                    <div className="icons" ><img src="images/vuejs.png" alt="" /> </div>
+                    <div className="icons" ><img src="images/docker.png" alt="" /> </div>
+                    </div>
+                    </div>
 
                     
                     
@@ -29,11 +35,20 @@ const About = () => {
                     <div>Teamwork<ProgressBar striped variant="success" now={40} /></div> 
                     <div>Helpfulness<ProgressBar striped variant="warning" now={60} /></div> 
                     <div>Teachability<ProgressBar animated now={45} /></div> 
-                    <div>Time management<ProgressBar striped variant="info" now={20} /></div> </Col>
+                    <div>Time management<ProgressBar striped variant="info" now={20} /></div> 
+                    </Col>
                 </Row>
                 <Row >
-                    <Col xs={12} md={6} lg={6}><img className="" src=""  alt=""/>Language</Col>
-                    <Col xs={12} md={6} lg={6}><img className="" src=""  alt=""/> Other</Col>
+                    <Col xs={12} md={6} lg={6}><h4>Language</h4>
+                    <div>Deutsch <ProgressBar striped variant="info" now={50} /></div>
+                    <div>Englisch <ProgressBar striped variant="warning" now={40} /></div>
+                    <div>Türkisch <ProgressBar striped variant="success" now={100} /></div>
+                    </Col>
+                    <Col xs={12} md={6} lg={6}> <h4>Other</h4> 
+                    <div  className="others"><img src="images/vsc.png" alt="" /> </div>                    
+                    <div className="others"><img src="images/github1.png" alt="" /></div>
+                    <div className="others"><img src="images/agile.png" alt="" /> </div>
+                    </Col>
                 </Row>
             </Container>
         </div>
