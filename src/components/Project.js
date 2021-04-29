@@ -1,14 +1,15 @@
 import React from 'react'
 import data from "../data.json";
 import "react-popupbox/dist/react-popupbox.css";
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Container, Row, Col} from 'react-bootstrap';
+
 
 
 
 
 const Project = () => {
 
-  console.log(data);
+  
 
   return (<>
     <h1 className="text-uppercase text-center">Portfolio</h1>
@@ -31,8 +32,12 @@ const Project = () => {
              </ul>
            </div>  
            
-             <Button src={item.url} target="_blank">Click Me</Button>
              
+             
+             <a href={item.url} rel="noreferrer"  target="_blank" className="btn btn-info"  >Click Me</a>
+            
+
+            
               
               </div>
             </div>
