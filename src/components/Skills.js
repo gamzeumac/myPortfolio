@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div><h1  className="text-center"> My Skills</h1>
             
-            <Container className="" >
+            <Container fluid className="myskills" >
 
 
                 <Row >
