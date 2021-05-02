@@ -4,12 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Particles from "react-particles-js";
 import NavBar from './components/NavBar';
 import Header from './components/Header';
- import About from './components/About';
+import About from './components/About';
 import Project from './components/Project';
-
 import Skills from './components/Skills';
-
 import Footer from './components/Footer';
+
+
+
 
 
 function App() {
@@ -17,38 +18,40 @@ function App() {
 
     <Router>
       <div className="App">
-      <NavBar/>
+        <NavBar />
+       
+       
 
-      <Particles
-        className="particles-canvas"
-        params={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900
-              }
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 6,
-                color: "#f9ab00"
+        <Particles
+          className="particles-canvas"
+          params={{
+            particles: {
+              number: {
+                value: 30,
+                density: {
+                  enable: true,
+                  value_area: 900
+                }
+              },
+              shape: {
+                type: "circle",
+                stroke: {
+                  width: 6,
+                  color: "#f9ab00"
+                }
               }
             }
-          }
-        }}
-      />
-        
+          }}
+        />
+
         <Header />
         <About />
-        <Project/>
-        <Skills/>
-        <Footer/>
+        <Project />
+        <Skills />
+        <Footer />
 
         <Switch>
-         {/*  <Route path="/Project">
+          {/*  <Route path="/Project">
             <Project />
           </Route>
           <Route path="/About">
@@ -62,11 +65,11 @@ function App() {
           </Route> */}
 
           <Route exact path="/">
-           {/*  <Header /> */}
+            {/*  <Header /> */}
           </Route>
         </Switch>
 
-       {/*  <Footer /> */}
+        {/*  <Footer /> */}
       </div>
     </Router>
   );
