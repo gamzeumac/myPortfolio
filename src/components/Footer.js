@@ -4,8 +4,7 @@ import {
   FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
+
   LinkedinShareButton,
   LinkedinIcon
 } from "react-share";
@@ -65,13 +64,7 @@ const Footer = () => {
               >
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
-              <RedditShareButton
-                url={"https://www.youtube.com/"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
+              
               <LinkedinShareButton
                 url={"www.linkedin.com/in/gamzeumac-"}
                 quote={"FullStack Developer"}

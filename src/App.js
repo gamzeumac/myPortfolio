@@ -19,9 +19,6 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-       
-       
-
         <Particles
           className="particles-canvas"
           params={{

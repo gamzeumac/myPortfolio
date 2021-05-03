@@ -16,7 +16,7 @@
 
 body {
 font-family: "Roboto Condensed", sans-serif !important;
-background: var(--primary-dark-grey);
+
 }
 
 
@@ -98,12 +98,15 @@ nav a.nav-link {
     justify-content: center;
     align-items: center;
     display: flex;
+    
+   
   }
 
   .me{
-      width: 30rem;
+      width:45rem;
       border-radius: 50%;
       padding: .3rem;
+     
       
   }
   
@@ -140,23 +143,34 @@ nav a.nav-link {
   text-align: center;
 }
 
-.icons{
+.icons>div{
 
 
   justify-content: space-between;
   align-items: baseline;
   display: inline;
+  flex-wrap: wrap;
  
 }
+
 
 .others{
   justify-content: space-between;
   align-items: baseline;
-  display: inline;
+  display: flex;
+  flex-direction: row;
+ 
+  
 }
 
 .myskills{
  height: 40rem;
 
-
+ justify-content: center;
+ position: relative;
+}
+.mern{
+  width: 10%;
+  height: 20%;
+  display: flex;
 }
