@@ -45,9 +45,10 @@ function App() {
         <Header />
         <About />
         <Project />
-        <Skills />
+
         <Contact/>
         <Footer />
+        <Skills/>
 
         <Switch>
           {/*  <Route path="/Project">
