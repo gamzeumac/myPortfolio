@@ -8,6 +8,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 
 
@@ -44,8 +45,10 @@ function App() {
         <Header />
         <About />
         <Project />
-        <Skills />
+
+        <Contact/>
         <Footer />
+        <Skills/>
 
         <Switch>
           {/*  <Route path="/Project">
