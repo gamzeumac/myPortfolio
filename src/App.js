@@ -46,9 +46,11 @@ function App() {
         <About />
         <Project />
 
+        
+        
+        <Skills/>
         <Contact/>
         <Footer />
-        <Skills/>
 
         <Switch>
           {/*  <Route path="/Project">
