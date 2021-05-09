@@ -10,7 +10,7 @@ const Project = () => {
     <Container fluid>
       <Row className="justify-content-center">
 
-        {data.map((item, index) => {
+        {data.projects.map((item, index) => {
           return <Col lg={3} className="m-4 justify-content-center">
 
             <div class="image-container">
