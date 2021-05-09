@@ -63,7 +63,7 @@ const Skills = () => {
                     
                     </Col>
                     
-                    <Col className="others my-5 p-5" xs={12} md={6} lg={6}> <h4>Other</h4> 
+                    <Col className="others my-5 p-5" xs={12} md={6} lg={6}> <h4>Othere</h4> 
                     <OverlayTrigger placement="top" overlay={renderTooltip1}> 
                     <div  ><img src="images/vsc.png" alt="" /> </div></OverlayTrigger>                    
                     <OverlayTrigger placement="top" overlay={renderTooltip2}>
