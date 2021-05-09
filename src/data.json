@@ -186,22 +186,5 @@
             "degree": "Professional working degree",
             "learning": true
         }
-    ],
-    "other": [
-        {
-            "image": "images/vsc.png",
-            "tooltip": "Visual Studio Code",
-            "learning":true
-        },
-        {
-            "image": "images/github1.png",
-            "tooltip":"Github",
-            "learning":true
-        },
-        {
-            "image": "images/agile.png",
-            "tooltip":"Scrum",
-            "learning":true
-        }
     ]
 }

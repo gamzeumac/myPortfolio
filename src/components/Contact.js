@@ -6,19 +6,20 @@ const Contact = () => {
 
   function sendEmail(e) {
     e.preventDefault();
-
     emailjs.sendForm('service_7974e87', 'template_7hko82f', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+
   }
 
   return (
     <div>
-      <Form as="Col" className="d-flex flex-column p-5  mx-5" onSubmit={sendEmail}>
-        <Form.Group controlId="exampleForm.ControlInput" >
+      <form as="Col" className="d-flex flex-column p-5  mx-5" onSubmit={sendEmail}>
+       <Form.Group controlId="exampleForm.ControlInput" >
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="name" />
         </Form.Group>
@@ -40,11 +41,11 @@ const Contact = () => {
         <Form.Group controlId="exampleForm.ControlTextarea">
           <Form.Label>Example textarea</Form.Label>
           <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Button variant="primary" type="submit">
+        </Form.Group> 
+        <Button variant="primary" type="submit" >
           Submit
   </Button>
-      </Form>
+      </form>
     </div>
   );
 };

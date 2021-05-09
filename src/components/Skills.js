@@ -47,7 +47,7 @@ const Skills = () => {
               return <div>
                 <div>{item.name1}</div>
 
-                {item.learning ? <ProgressBar striped variant="info" now={50} />:false}
+                {item.learning ? <ProgressBar striped variant="info" now={50} />:null}
                 <div> {item.degree}</div>
                 </div>
               
@@ -58,15 +58,7 @@ const Skills = () => {
           </Col>
 
           <Col className="others my-5 p-5" xs={12} md={6} lg={6}> <h4>Other</h4>
-          {data.other.map((item, index) => {
-            return <div>
-              
-              {item.learning ? <OverlayTrigger placement="top" overlay={item.tooltip}> </OverlayTrigger>:false}
-                <div> {item.tooltip}</div>
-              
-            </div>  
-
-            })}
+         
             <OverlayTrigger placement="top" overlay={renderTooltip1}>
               <div  ><img src="images/vsc.png" alt="" /> </div></OverlayTrigger>
             <OverlayTrigger placement="top" overlay={renderTooltip2}>
