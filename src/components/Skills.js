@@ -60,8 +60,8 @@ const Skills = () => {
           <Col className="others my-5 p-5" xs={12} md={6} lg={6}> <h4>Other</h4>
           {data.other.map((item, index) => {
             return <div>
-              <div><img src={item.image} alt=""/></div>
-              {item.learning ? <OverlayTrigger placement="top" overlay={item.tooltip} />:false}
+              
+              {item.learning ? <OverlayTrigger placement="top" overlay={item.tooltip}> </OverlayTrigger>:false}
                 <div> {item.tooltip}</div>
               
             </div>  
