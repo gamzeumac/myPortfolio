@@ -1,76 +1,207 @@
-[
-    {
-      "name":"Fruits Page",
-      "url":"https://gamzeumac.github.io/Fruitspage/",
-      "type":"frontend",
-      "programmingLanguages": ["Html","Css"],
-      "image": "images/fruits.png",
-      "repo":"https://github.com/gamzeumac/Fruitspage"
-    },
-    {
-        "name":" Calculator",
-        "url":"https://gamzeumac.github.io/Calculator/",
-        "type":"frontend",
-        "programmingLanguages": ["Html","Css","JS"],
-        "image": "images/calcu.png",
-        "repo":"https://github.com/gamzeumac/Calculator"
-    },
-    {
-        "name":" Perseverance Rover",
-        "url":"https://gamzeumac.github.io/PerseveranceRover/",
-        "type":"frontend",
-        "programmingLanguages": ["Html","Css","Bootstrap", "JS"],
-        "image": "images/perse.png",
-        "repo":"https://github.com/gamzeumac/PerseveranceRover"
-    },
-    {
-        "name":" Portfolio",
-        "url":"https://gamzegatsbyportfolio.netlify.app/",
-        "type":"frontend",
-        "programmingLanguages": ["Html","Css","Gatsby"],
-        "image": "images/gatsby.png",
-        "repo":"https://github.com/gamzeumac/gatsbyportfolio"
-    },
-    {
-        "name":" Music Player",
-        "url":"https://gamzeumac.github.io/MusicPlayer/",
-        "type":"frontend",
-        "programmingLanguages": ["Html","Css","JS"],
-        "image": "images/musicplayer.png",
-        "repo":"https://github.com/gamzeumac/MusicPlayer"
-    },
-    {
-        "name":" Recipe",
-        "url":"https://gamzeumac.github.io/api/",
-        "type":"frontend",
-        "programmingLanguages": ["React", "Css"],
-        "image": "images/recipe.png",
-        "repo":"https://github.com/gamzeumac/api"
-    },
-    {
-        "name":" City Guide",
-        "url":"https://github.com/gamzeumac/cityguide",
-        "type":"frontend",
-        "programmingLanguages": ["React", "Bootstrap"],
-        "image": "images/cityguide.png",
-        "repo":"https://github.com/gamzeumac/ReactForumPage"
-    },    
-    {
-        "name":" Music App",
-        "url":"https://gamzeumac.github.io/MusicApp/",
-        "type":"full stack",
-        "programmingLanguages": ["JS","Html","Css"],
-        "image": "images/MusicApp.png",
-        "repo":"https://github.com/gamzeumac/MusicApp"
-    },
-    {
-        "name":" Blog",
-        "url":"https://github.com/gamzeumac/blog",
-        "type":"full stack",
-        "programmingLanguages": ["React", "Next Js", "Mongodb", "Express Js"],
-        "image": "images/Blog.png",
-        "repo":"https://github.com/gamzeumac/blog"
-    }    
-
-
-  ]
+{
+    "projects": [
+        {
+            "name": "Fruits Page",
+            "url": "https://gamzeumac.github.io/Fruitspage/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css"
+            ],
+            "image": "images/fruits.png",
+            "repo": "https://github.com/gamzeumac/Fruitspage"
+        },
+        {
+            "name": " Calculator",
+            "url": "https://gamzeumac.github.io/Calculator/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "JS"
+            ],
+            "image": "images/calcu.png",
+            "repo": "https://github.com/gamzeumac/Calculator"
+        },
+        {
+            "name": " Perseverance Rover",
+            "url": "https://gamzeumac.github.io/PerseveranceRover/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "Bootstrap",
+                "JS"
+            ],
+            "image": "images/perse.png",
+            "repo": "https://github.com/gamzeumac/PerseveranceRover"
+        },
+        {
+            "name": " Portfolio",
+            "url": "https://gamzegatsbyportfolio.netlify.app/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "Gatsby"
+            ],
+            "image": "images/gatsby.png",
+            "repo": "https://github.com/gamzeumac/gatsbyportfolio"
+        },
+        {
+            "name": " Music Player",
+            "url": "https://gamzeumac.github.io/MusicPlayer/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "JS"
+            ],
+            "image": "images/musicplayer.png",
+            "repo": "https://github.com/gamzeumac/MusicPlayer"
+        },
+        {
+            "name": " Recipe",
+            "url": "https://gamzeumac.github.io/api/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "React",
+                "Css"
+            ],
+            "image": "images/recipe.png",
+            "repo": "https://github.com/gamzeumac/api"
+        },
+        {
+            "name": " City Guide",
+            "url": "https://github.com/gamzeumac/cityguide",
+            "type": "frontend",
+            "programmingLanguages": [
+                "React",
+                "Bootstrap"
+            ],
+            "image": "images/cityguide.png",
+            "repo": "https://github.com/gamzeumac/ReactForumPage"
+        },
+        {
+            "name": " Music App",
+            "url": "https://gamzeumac.github.io/MusicApp/",
+            "type": "full stack",
+            "programmingLanguages": [
+                "JS",
+                "Html",
+                "Css"
+            ],
+            "image": "images/MusicApp.png",
+            "repo": "https://github.com/gamzeumac/MusicApp"
+        },
+        {
+            "name": " Blog",
+            "url": "https://github.com/gamzeumac/blog",
+            "type": "full stack",
+            "programmingLanguages": [
+                "React",
+                "Next Js",
+                "Mongodb",
+                "Express Js"
+            ],
+            "image": "images/Blog.png",
+            "repo": "https://github.com/gamzeumac/blog"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "type": "front-end",
+            "learning": false,
+            "image": "images/html.png"
+        },
+        {
+            "name": "CSS",
+            "type": "front-end",
+            "learning": false,
+            "image": "images/css1.png"
+        },
+        {
+            "name": "Bootstrap",
+            "type": "front-end",
+            "learning": false,
+            "image": "images/bootstrap.png"
+        },
+        {
+            "name": "Javascript",
+            "type": "front-end",
+            "learning": false,
+            "image": "images/js.png"
+        },
+        {
+            "name": "SCSS",
+            "type": "front-end",
+            "learning": false,
+            "image": "images/sass.png"
+        },
+        {
+            "name": "NODEJS",
+            "type": "front-end",
+            "learning": true,
+            "image": "images/nodejs.png"
+        },
+        {
+            "name": "React",
+            "type": "front-end",
+            "learning": true,
+            "image": "images/react.png"
+        },
+        {
+            "name": "TypeScript",
+            "type": "front-end",
+            "learning": true,
+            "image": "images/typescript.png"
+        },
+        {
+            "name": "VueJS",
+            "type": "front-end",
+            "learning": true,
+            "image": "images/vuejs.png"
+        },
+        {
+            "name": "Docker",
+            "type": "front-end",
+            "learning": true,
+            "image": "images/docker.png"
+        }
+    ],
+    "languages": [
+        {
+            "name1": "Turkish",
+            "degree": "native",
+            "learning": false
+        },
+        {
+            "name1": "German",
+            "degree": "Professional working degree",
+            "learning": true
+        },
+        {
+            "name1": "Englisch",
+            "degree": "Professional working degree",
+            "learning": true
+        }
+    ],
+    "other": [
+        {
+            "image": "images/vsc.png",
+            "tooltip": "Visual Studio Code",
+            "learning":true
+        },
+        {
+            "image": "images/github1.png",
+            "tooltip":"Github",
+            "learning":true
+        },
+        {
+            "image": "images/agile.png",
+            "tooltip":"Scrum",
+            "learning":true
+        }
+    ]
+}
