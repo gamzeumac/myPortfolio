@@ -15,6 +15,8 @@ import Contact from './components/Contact';
 
 
 
+
+
 function App() {
   return (
 
@@ -52,6 +54,8 @@ function App() {
         <Skills/>
         <Contact/>
         <Footer />
+       
+        
 
         <Switch>
           {/*  <Route path="/Project">

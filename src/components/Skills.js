@@ -18,7 +18,7 @@ const Skills = () => {
     <Tooltip {...props3}>Scrum</Tooltip>
   );
   return (
-    <div>
+    <div >
       <h1 className="text-center"> My Skills</h1>
       <Container className="myskills" >
         <Row >

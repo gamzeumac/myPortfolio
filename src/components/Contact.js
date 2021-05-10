@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <div>
       <h2 className="text-center">Contact Me</h2>
-      <form as="Col" className="d-flex flex-column h-50 p-5 mx-5" onSubmit={sendEmail}>
+      <form as="Col" className="d-flex flex-column h-50 p-5 mx-5 " onSubmit={sendEmail}>
        <Form.Group controlId="exampleForm.ControlInput" >
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="name" />
@@ -32,7 +32,7 @@ const Contact = () => {
 
         <Form.Group controlId="exampleForm.ControlSelect">
           <Form.Label>Example multiple select</Form.Label>
-          <DropdownButton id="dropdown-basic-button" title="Example multiple select">
+          <DropdownButton variant="info" id="dropdown-basic-button" title="Example multiple select">
             <Dropdown.Item href="#/action-1">I offer job for you</Dropdown.Item>
             <Dropdown.Item href="#/action-2">I need professional support for my project</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Other</Dropdown.Item>
@@ -43,7 +43,7 @@ const Contact = () => {
           <Form.Label>Example textarea</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group> 
-        <Button variant="primary" type="submit" >
+        <Button variant="info" type="submit" >
           Submit
   </Button>
       </form>

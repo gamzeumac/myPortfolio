@@ -12,10 +12,12 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
+  --primary-info: rgb(52, 221, 233);
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif !important;
+
 }
 
 .logo {
@@ -80,11 +82,18 @@ nav a.nav-link {
     font-size: 1.3rem !important;
   }
 }
+
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
 }
 
 .about {
@@ -98,6 +107,13 @@ nav a.nav-link {
   width: 45rem;
   border-radius: 50%;
   padding: 0.3rem;
+}
+
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
 }
 
 .image-container {
@@ -162,7 +178,25 @@ nav a.nav-link {
 }
 
 
-.footer{
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
   height: 25vh;
-  background-color: var(--primary-dark-grey);
 }
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
