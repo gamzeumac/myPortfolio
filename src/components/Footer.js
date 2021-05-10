@@ -4,7 +4,6 @@ import {
   FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
-
   LinkedinShareButton,
   LinkedinIcon
 } from "react-share";
@@ -15,11 +14,11 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6 justify-content-center">
             <div className="d-flex">
               <p> 46325, Borken</p>
             </div>
-            <div className="d-flex">
+            <div className="d-flex ">
               <a href="tel:+4917621987385">+49 152 54176423</a>
             </div>
             <div className="d-flex">

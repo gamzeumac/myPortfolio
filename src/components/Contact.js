@@ -18,7 +18,8 @@ const Contact = () => {
 
   return (
     <div>
-      <form as="Col" className="d-flex flex-column p-5  mx-5" onSubmit={sendEmail}>
+      <h2 className="text-center">Contact Me</h2>
+      <form as="Col" className="d-flex flex-column h-50 p-5 mx-5" onSubmit={sendEmail}>
        <Form.Group controlId="exampleForm.ControlInput" >
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="name" />

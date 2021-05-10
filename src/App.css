@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 /**/
 :root {
   --primary-white: #ffffff;
@@ -10,120 +10,109 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
-  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
   --primary-green: green;
 }
 
 body {
-font-family: "Roboto Condensed", sans-serif !important;
-
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
-
 .logo {
-    margin-top: 1rem;
-    width: 4rem;
-    background-size: cover;    
-  }
+  margin-top: 1rem;
+  width: 4rem;
+  background-size: cover;
+}
 nav a.nav-link {
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: 0.04rem;
-    cursor: pointer;
-    color: var(--primary-white) !important
-  }
-  
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  color: var(--primary-white) !important;
+}
 
-  
-  .navbar-nav > li > a {
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    color: var(--primary-white) !important;
-    
-  }
-  
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+}
+
 .header-wraper {
-    position: relative;
-    background: url('../src/images/header2.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
+  position: relative;
+  background: url("../src/images/header2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
-  .main-info {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 1;
-  }
-  
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+@media (max-width: 768px) {
   .main-info h1 {
-    color: var(--primary-orange);
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    font-family: 'Source Code Pro', monospace;
+    font-size: 1.7rem !important;
   }
-
   .typed-text {
-    font-size: 2rem;
-    color: var(--primary-white);
-    margin: 2rem;
+    font-size: 1.3rem !important;
   }
-  
-  @media(max-width: 768px) {
-    .main-info h1 {
-      font-size: 1.7rem !important;
-    }
-    .typed-text {
-      font-size: 1.3rem !important;
-  
-    }
-  }
+}
 .tsparticles-canvas-el {
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-  }
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
 
-  .about{
-    height: 40rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
-   
-  }
+.about {
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
-  .me{
-      width:45rem;
-      border-radius: 50%;
-      padding: .3rem;
-     
-      
-  }
-  
+.me {
+  width: 45rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
 
-    .image-container {
-      position: relative;
-      width: 100%;
+.image-container {
+  position: relative;
+  width: 100%;
 }
 .image-container .after {
   position: absolute;
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(204, 209, 211,.8);
+  background-color: rgba(204, 209, 211, 0.8);
   overflow: hidden;
   width: 100%;
-  height:0;
+  height: 0;
   transition: 1s ease;
 }
 .image-container:hover .after {
@@ -143,34 +132,37 @@ nav a.nav-link {
   text-align: center;
 }
 
-.icons>div{
-
-
+.icons > div {
   justify-content: space-between;
   align-items: baseline;
   display: inline;
   flex-wrap: wrap;
- 
 }
 
-
-.others{
+.others {
   justify-content: space-between;
   align-items: baseline;
   display: flex;
   flex-direction: row;
- 
-  
+  height: fit-content;
 }
 
-.myskills{
- height: 40rem;
 
- justify-content: center;
- position: relative;
+
+.myskills {
+  height: 40rem;
+  justify-content: center;
+  position: relative;
 }
-.mern{
+
+.mern {
   width: 10%;
   height: 20%;
   display: flex;
+}
+
+
+.footer{
+  height: 25vh;
+  background-color: var(--primary-dark-grey);
 }

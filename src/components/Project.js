@@ -13,9 +13,9 @@ const Project = () => {
         {data.projects.map((item, index) => {
           return <Col lg={3} className="m-4 justify-content-center">
 
-            <div class="image-container">
+            <div className="image-container">
               <img height="auto" width="100%" src={item.image} alt="images" />
-              <div class="after">
+              <div className="after">
                 <div className="project-text">{item.name}
                 <div>
                   Programming Langaugeas <ul>
