@@ -10,6 +10,7 @@ const Project = () => {
     <Container fluid>
       <Row className="justify-content-center">
 
+
         {data.projects.map((item, index) => {
           return <Col lg={3} className="m-4 justify-content-center">
 
@@ -17,15 +18,18 @@ const Project = () => {
               <img height="auto" width="100%" src={item.image} alt="images" />
               <div className="after">
                 <div className="project-text">{item.name}
-                <div>
-                  Programming Langaugeas <ul>
-                    {item.programmingLanguages.map((item, index) => {
-                      return <li>{item}</li>
-                    })}
-                  </ul>
-                <a href={item.url} rel="noreferrer" target="_blank" className="btn btn-warning"  >Go to WebSite</a>
-                <a href={item.repo} rel="noreferrer" target="_blank" className="btn btn-success"  >See in GitHub</a>
-                </div></div>
+                  <div>
+
+                    Programming Langaugeas <ul>
+                      {item.programmingLanguages.map((item, index) => {
+                        
+                        return <li key={index}>{item}</li>
+                      })}
+                    </ul>
+                    <a href={item.url} rel="noreferrer" target="_blank" className="btn btn-warning"  >Go to WebSite</a>
+                    <a href={item.repo} rel="noreferrer" target="_blank" className="btn btn-success"  >See in GitHub</a>
+                  </div>
+                </div>
 
 
 

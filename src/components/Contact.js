@@ -4,15 +4,20 @@ import { Form, Button, DropdownButton, Dropdown } from 'react-bootstrap';
 
 const Contact = () => {
 
+  let resultextconfirmation = "";
   function sendEmail(e) {
     e.preventDefault();
     emailjs.sendForm('service_7974e87', 'template_7hko82f', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm')
             .then((result) => {
-                console.log(result.text);
+               
+              console.log(result.text);
+              resultextconfirmation = result.text;
+
             }, (error) => {
                 console.log(error.text);
             });
-
+            
+          /*   console.log(resultextconfirmation);  */
 
   }
 
@@ -43,6 +48,7 @@ const Contact = () => {
           <Form.Label>Example textarea</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group> 
+        <p className="resultextconfirmation">hallo{resultextconfirmation}</p>
         <Button variant="info" type="submit" >
           Submit
   </Button>
