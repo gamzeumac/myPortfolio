@@ -169,13 +169,10 @@ nav a.nav-link {
   height: 40rem;
   justify-content: center;
   position: relative;
+  background-color: rgb(87, 84, 87);
 }
 
-.mern {
-  width: 10%;
-  height: 20%;
-  display: flex;
-}
+
 
 
 .footer {
@@ -192,7 +189,7 @@ nav a.nav-link {
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--primary-orange);
+  color: orange;
   cursor:pointer;
 }
 
@@ -203,4 +200,86 @@ nav a.nav-link {
 .resultextconfirmation{
   font-weight: bold;
   color: green;
+}
+
+.code-l {
+  position: relative;
+  color: pink;
+}
+
+.code-l::after {
+  content: attr(data-line-nr);
+  position: absolute;
+  left: -60px;
+  color: #3b3553;
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 16px;
+  line-height: 1.6;
+  z-index: 3;
+  top: 0;
+}
+
+.comment {
+  color: rgb(153, 153, 153);
+  display: inline-block;
+}
+
+.dot {
+  color: rgb(54, 54, 54);
+  display: inline-block;
+}
+
+.methods {
+  color: white;
+  display: inline-block;
+}
+.propname {
+  color: yellow;
+}
+
+.scope {
+  color: red;
+}
+
+.prop2 {
+  color: teal;
+}
+
+.string {
+  color: green;
+}
+
+.number {
+  color: orange;
+}
+
+.blinker {
+  margin-right: 10px;
+}
+
+.blinker::after {
+  content: '';
+  width: 1px;
+  height: 18px;
+  background: white;
+  position: absolute;
+  bottom: 4px;
+  animation: blinkerAnime 0.4s infinite alternate;
+}
+
+@keyframes blinkerAnime {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+.portfoliobg{
+  background: rgb(170, 165, 170);
+}
+.contact{
+  background-color: rgb(170, 165, 170);
 }

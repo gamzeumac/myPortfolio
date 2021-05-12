@@ -20,9 +20,9 @@ const Skills = () => {
   return (
     <div >
       <h1 className="text-center"> My Skills</h1>
-      <Container className="myskills" >
-        <Row >
-          <Col className="my-5 p-5 d-flex flex-wrap justify-content-center" xs={12} md={6} lg={6}> <h4 className="w-100">Frontend</h4>
+      <Container fluid className="myskills" >
+        <Row className="d-flex flex-wrap justify-content-center">
+          <Col className="my-5 p-5 d-flex flex-wrap justify-content-center" xs={12} md={6} lg={6}><h4 className="w-100">Frontend</h4>
             {data.skills.map((item, index) => {
               return <div>
 
@@ -43,11 +43,11 @@ const Skills = () => {
 
             })}
           </Col>
-          <Col className="my-5 p-5 backend" xs={12} md={6} lg={6}> <h4 className="w-100">Backend</h4>
-            <div className="mern"><img src="images/mern.png" alt="" /></div>
-          </Col>
-          <Col className="others my-5 p-5 " xs={12} md={6} lg={6}> <h4 className="w-100">Other</h4>
 
+          <Col className="my-5 p-5 d-flex flex-wrap justify-content-center " xs={12} md={6} lg={6}><h4 className="w-100">Backend</h4>
+            <div ><img src="images/mernn.png" alt="" /></div>
+          </Col>
+          <Col className="others d-flex flex-wrap justify-content-center my-5 p-5 " xs={12} md={6} lg={6}><h4 className="w-100">Other</h4> 
             <OverlayTrigger placement="top" overlay={renderTooltip1}>
               <div  ><img src="images/vsc.png" alt="" /> </div></OverlayTrigger>
             <OverlayTrigger placement="top" overlay={renderTooltip2}>
