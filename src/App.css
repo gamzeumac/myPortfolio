@@ -166,7 +166,7 @@ nav a.nav-link {
 
 
 .myskills {
-  height: 40rem;
+  height: 45rem;
   justify-content: center;
   position: relative;
   background-color: rgb(87, 84, 87);
@@ -176,8 +176,8 @@ nav a.nav-link {
 
 
 .footer {
-  background: var(--primary-black);
-  color: var(--primary-dark-grey);
+  background-color: rgb(87,84,87);
+  
   padding: 3rem;
   height: 25vh;
 }
