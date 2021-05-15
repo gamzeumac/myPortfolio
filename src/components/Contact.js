@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, Button, DropdownButton, Dropdown } from 'react-bootstrap';
 
@@ -10,13 +10,16 @@ const Contact = () => {
     emailjs.sendForm('service_7974e87', 'template_7hko82f', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm')
             .then((result) => {
                
-              console.log(result.text);
               
+              document.write(useEffect);
 
             }, (error) => {
                 console.log(error.text);
             });
    }
+   useEffect(() => {
+    document.write = `thank you`;
+  });
 
   return (
     <div>

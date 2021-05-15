@@ -10,13 +10,32 @@ import Project from './components/Project';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Routes from './components/Routes';
+
 
 function App() {
   return (
-    <Router>
+        
       <div className="App">
+        <Router>  
         <NavBar />
+        <Switch>
+          <Route path="/header">
+            <Header />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/project">
+            <Project />
+          </Route>
+          <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+         
+        </Switch>
 
 
         <Particles
@@ -41,26 +60,9 @@ function App() {
           }}
         />
         <Header /><About /><Project /><Skills /> <Contact /><Footer />
-        <Switch>
-          <Route path="/header">
-            <Header />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/project">
-            <Project />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-         
-        </Switch>
+      </Router> 
       </div>
-    </Router>
+    
 
   );
 }
