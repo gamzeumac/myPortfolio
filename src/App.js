@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Particles from "react-particles-js";
 import NavBar from './components/NavBar';
 import Header from './components/Header';
@@ -12,17 +12,32 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 
 
-
-
-
-
-
 function App() {
   return (
-
-    <Router>
+        
       <div className="App">
+        <Router>  
         <NavBar />
+        <Switch>
+          <Route path="/header">
+            <Header />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/project">
+            <Project />
+          </Route>
+          <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+         
+        </Switch>
+
+
         <Particles
           className="particles-canvas"
           params={{
@@ -44,41 +59,11 @@ function App() {
             }
           }}
         />
-
-        <Header />
-        <About />
-        <Project />
-
-        
-        
-        <Skills/>
-        <Contact/>
-        <Footer />
-       
-        
-
-        <Switch>
-          {/*  <Route path="/Project">
-            <Project />
-          </Route>
-          <Route path="/About">
-            <About />
-          </Route>
-          <Route path="/Skills">
-            <Skills />
-          </Route>
-          <Route path="/Contact">
-            <Contact />
-          </Route> */}
-
-          <Route exact path="/">
-            {/*  <Header /> */}
-          </Route>
-        </Switch>
-
-        {/*  <Footer /> */}
+        <Header /><About /><Project /><Skills /> <Contact /><Footer />
+      </Router> 
       </div>
-    </Router>
+    
+
   );
 }
 

@@ -1,30 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, Button, DropdownButton, Dropdown } from 'react-bootstrap';
 
 const Contact = () => {
 
-  let resultextconfirmation = "";
+  
   function sendEmail(e) {
     e.preventDefault();
     emailjs.sendForm('service_7974e87', 'template_7hko82f', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm')
             .then((result) => {
                
-              console.log(result.text);
-              resultextconfirmation = result.text;
+              
+              document.write(useEffect);
 
             }, (error) => {
                 console.log(error.text);
             });
-            
-          /*   console.log(resultextconfirmation);  */
-
-  }
+   }
+   useEffect(() => {
+    document.write = `thank you`;
+  });
 
   return (
     <div>
       <h2 className="text-center">Contact Me</h2>
-      <form as="Col" className="d-flex flex-column h-50 p-5 mx-5 " onSubmit={sendEmail}>
+      <form as="Col" className="d-flex flex-column h-50 p-5 mx-5 contact" onSubmit={sendEmail}>
        <Form.Group controlId="exampleForm.ControlInput" >
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="name" />
@@ -48,7 +48,7 @@ const Contact = () => {
           <Form.Label>Example textarea</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group> 
-        <p className="resultextconfirmation">hallo{resultextconfirmation}</p>
+        
         <Button variant="info" type="submit" >
           Submit
   </Button>

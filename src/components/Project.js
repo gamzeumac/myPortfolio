@@ -7,7 +7,7 @@ const Project = () => {
 
   return (<>
     <h1 className="text-uppercase text-center">Portfolio</h1>
-    <Container fluid>
+    <Container fluid className=" portfoliobg">
       <Row className="justify-content-center">
 
 
@@ -22,7 +22,7 @@ const Project = () => {
 
                     Programming Langaugeas <ul>
                       {item.programmingLanguages.map((item, index) => {
-                        
+
                         return <li key={index}>{item}</li>
                       })}
                     </ul>

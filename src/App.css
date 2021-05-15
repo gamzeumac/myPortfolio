@@ -19,6 +19,45 @@ body {
   font-family: "Roboto Condensed", sans-serif !important;
 
 }
+nav a.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+@media(max-width: 768px) {
+ .navbar-brand {
+   width: 7rem;
+ }
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+
 
 .logo {
   margin-top: 1rem;
@@ -166,21 +205,18 @@ nav a.nav-link {
 
 
 .myskills {
-  height: 40rem;
+  height: 45rem;
   justify-content: center;
   position: relative;
+  background-color: rgb(87, 84, 87);
 }
 
-.mern {
-  width: 10%;
-  height: 20%;
-  display: flex;
-}
+
 
 
 .footer {
-  background: var(--primary-black);
-  color: var(--primary-dark-grey);
+  background-color: rgb(87,84,87);
+  
   padding: 3rem;
   height: 25vh;
 }
@@ -192,7 +228,7 @@ nav a.nav-link {
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--primary-orange);
+  color: orange;
   cursor:pointer;
 }
 
@@ -203,4 +239,86 @@ nav a.nav-link {
 .resultextconfirmation{
   font-weight: bold;
   color: green;
+}
+
+.code-l {
+  position: relative;
+  color: pink;
+}
+
+.code-l::after {
+  content: attr(data-line-nr);
+  position: absolute;
+  left: -60px;
+  color: #3b3553;
+  font-family: Roboto Mono, Courier New, Courier, monospace !important;
+  font-size: 16px;
+  line-height: 1.6;
+  z-index: 3;
+  top: 0;
+}
+
+.comment {
+  color: rgb(153, 153, 153);
+  display: inline-block;
+}
+
+.dot {
+  color: rgb(54, 54, 54);
+  display: inline-block;
+}
+
+.methods {
+  color: white;
+  display: inline-block;
+}
+.propname {
+  color: yellow;
+}
+
+.scope {
+  color: red;
+}
+
+.prop2 {
+  color: teal;
+}
+
+.string {
+  color: green;
+}
+
+.number {
+  color: orange;
+}
+
+.blinker {
+  margin-right: 10px;
+}
+
+.blinker::after {
+  content: '';
+  width: 1px;
+  height: 18px;
+  background: white;
+  position: absolute;
+  bottom: 4px;
+  animation: blinkerAnime 0.4s infinite alternate;
+}
+
+@keyframes blinkerAnime {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+.portfoliobg{
+  background: rgb(170, 165, 170);
+}
+.contact{
+  background-color: rgb(170, 165, 170);
 }
