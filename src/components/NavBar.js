@@ -1,26 +1,44 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import llogo from '../images/llogo.png';
 
+import llogo from '../images/llogo.png';
+import { Link } from "react-scroll";
 
 
 const NavBar = () => {
   return (
-    <Navbar bg="dark" expand="lg">
-      <Navbar.Brand href="#home"><img className="logo" src={llogo} alt="logo..." /></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#home">@Home</Nav.Link>
-          <Nav.Link href="#About">@About</Nav.Link>          
-          <Nav.Link href="#Project">@Project</Nav.Link>
-          <Nav.Link href="#Skills">@Skills</Nav.Link>
-          <Nav.Link href="#Contact">@Contact</Nav.Link>
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <div className="container">
 
-        </Nav>
+      <a className="navbar-brand" href="#"><img className="logo" src={llogo} alt="logo..." /></a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+      </button>
 
-      </Navbar.Collapse>
-    </Navbar>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item active">
+            <Link to="home" className="nav-link" href="#">@Home <span className="sr-only">(current)</span></Link>
+          </li>
+          <li className="nav-item">
+            <Link to="about" offset={-110} className="nav-link" >@About</Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="portfolio" offset={-110} className="nav-link" >@Project</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="myskills" offset={-110} className="nav-link" href="#">@Skills</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="contact" offset={-110} className="nav-link" >@Contacts</Link>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
   )
 }
 export default NavBar;

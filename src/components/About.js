@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
 
-            <Container fluid className="bg-dark about" >
+            <Container fluid className="bg-dark about" id="about" >
                 <Row >
                     <Col xs={12} md={10} lg={6}><img className="me" src={me} alt="me" /></Col>
                     <Col xs={12} md={10} lg={6} className="bg-dark">
