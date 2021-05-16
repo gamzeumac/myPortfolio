@@ -48,6 +48,20 @@ nav ul li {
    width: 7rem;
  }
 }
+/* 
+@media (min-width: 576px) {.navbar-brand {
+  width: 7rem;
+}}
+
+
+@media (min-width: 992px) { .navbar-brand {
+  width: 7rem;
+} }
+
+
+@media (min-width: 1200px) {.navbar-brand {
+  width: 7rem;
+}} */
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);

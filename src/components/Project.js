@@ -7,7 +7,7 @@ const Project = () => {
 
   return (<>
     <h1 className="text-uppercase text-center">Portfolio</h1>
-    <Container fluid className=" portfolio">
+    <Container fluid id=" portfolio">
       <Row className="justify-content-center">
 
 
