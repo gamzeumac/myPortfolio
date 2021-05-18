@@ -3,59 +3,30 @@ import emailjs from 'emailjs-com';
 import { Form, Button, DropdownButton, Dropdown } from 'react-bootstrap';
 
 
-/*   const useImage = (src: '') => {
-  const [hasLoaded, setHasLoaded] = useState(false);
-  const [hasError, setHasError] = useState(false);
-  const [hasStartedInitialFetch, setHasStartedInitialFetch] = useState(false);
-  useEffect(() => {
-    setHasStartedInitialFetch(true);
-    setHasLoaded(false);
-    setHasError(false);
-
-    // Here's where the magic happens.
-    const image = new Image();
-    image.src = src;
-
-    const handleError = () => {
-        setHasError(true);
-    };
-
-    const handleLoad = () => {
-        setHasLoaded(true);
-        setHasError(false);
-    };
-
-    image.onerror = handleError;
-    image.onload = handleLoad;
-    return () => {
-      image.removeEventListener("error", handleError);
-      image.removeEventListener("load", handleLoad);
-  };
-}, [src]); */
 
 
 const Contact = () => {
-
+  const [successMessage, setSuccessMessage] = useState("");
   
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('service_7974e87', 'template_7hko82f', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm')
-            .then((result) => {
+    emailjs.sendForm('serviceID', 'templateID', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm')
+            .then(() => {
                
               
-              document.write(useEffect);
+              setSuccessMessage("Form sent successfully! I'll contact you as soon as possible.");
 
             }, (error) => {
                 console.log(error.text);
             });
    }
-   useEffect(() => {
-    document.write = `thank you`;
-  });
+
 
   return (
     <div>
       <h2 className="text-center">Contact Me</h2>
+      <p className="text-center">Please fill out the form and describe you project needs and I'll contact you as soon as possible.</p>
+        <span className="success-message">{successMessage}</span>
       <form as="Col" className="d-flex flex-column h-50 p-5 mx-5 contact" onSubmit={sendEmail}>
        <Form.Group controlId="exampleForm.ControlInput" >
           <Form.Label>Name</Form.Label>

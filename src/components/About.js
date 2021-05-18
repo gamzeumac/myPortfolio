@@ -6,12 +6,12 @@ const About = () => {
     return (
         <div>
 
-            <Container fluid className="bg-dark about" id="about" >
-                <Row >
+            <Container fluid className="bg-dark justify-content-center about" id="about" >
+                <Row  className="justify-content-center">
                     <Col xs={12} md={10} lg={6}><img className="me" src={me} alt="me" /></Col>
                     <Col xs={12} md={10} lg={6} className="bg-dark">
                         <h1> @About Me</h1>
-                        <div className="about-syntax rellax" data-rellax-speed="5">
+                       
 
 
                             <p className="comment">About /&gt;</p>
@@ -25,9 +25,7 @@ const About = () => {
                             </div>
                             <div data-line-nr="03" className="code-l">
                                 <div className="dot">··</div>
-                                <div className="comment">
-                                    // thrilled to be part of the tech community!
-              </div>
+                                <div className="comment"> // thrilled to be part of the tech community!</div>
                             </div>
                             <div data-line-nr="04" className="code-l">
                                 <div className="dot">··</div>
@@ -61,66 +59,64 @@ const About = () => {
                             </div>
                             <div data-line-nr="09" className="code-l">
                                 <div className="dot">··</div>
-              
-            </div>
+
+                            </div>
 
                             <div data-line-nr="10" className="code-l">
                                 <div className="dot">··</div>
-                                <span className="propname">education</span>() 
-            </div>
+                                <span className="propname">education</span>()</div>
                             <div data-line-nr="11" className="code-l">
                                 <div className="dot">····</div>
-                                <div className="methods">return</div>
-              [
-            </div>
+                                <div className="methods">return</div>[
+                  </div>
                             <div data-line-nr="12" className="code-l">
                                 <div className="dot">······</div>
                                 <span className="string">'2021-2022'</span>:<span className="string">
                                     'Digital Career Institute -- one-year intensive MERN-Stack web
                 development course'</span
                                 >
-              ,
-            </div>
+                    ,
+                  </div>
                             <div data-line-nr="13" className="code-l">
                                 <div className="dot">······</div>
                                 <span className="string">'2008-2012'</span>...<span className="string">
                                     'Türkei -- Bachelor\'s Degree '</span
                                 >
-              ,
-            </div>
+                    ,
+                   </div>
                             <div data-line-nr="14" className="code-l">
                                 <div className="dot">····</div>
-              ]
-            </div>
+                    ]
+                  </div>
                             <div data-line-nr="15" className="code-l">
                                 <div className="dot">··</div>
-              
-            </div>
+
+                            </div>
                             <div data-line-nr="16" className="code-l">
                                 <div className="dot">··</div>
-                                <span className="propname">skills</span>() 
-            </div>
+                                <span className="propname">skills</span>()
+                  </div>
                             <div data-line-nr="17" className="code-l">
                                 <div className="dot">····</div>
                                 <div className="methods">return</div>
-              [
-              <span className="string"
+                    [
+                    <span className="string"
                                 >'HTML5/CSS/JS', 'React.js', 'React Native', 'jQuery',
                                     'Node.js', 'Bootstrap', 'Webpack', 'SASS', 'npm', 'SPA',
                                     'Git/GitHub', 'Wordpress', 'Drupal' 'Photoshop', 'Illustrator',
                                     'Adobe Premiere Pro', 'After Effects', 'UX/UI',
-              </span>
+                     </span>
                                 <span className="blinker"></span>
-              ]
-            </div>
+                  ]
+                  </div>
                             <div data-line-nr="18" className="code-l">
                                 <div className="dot">··</div>
-              
-            </div>
+
+                            </div>
                             <div data-line-nr="19" className="code-l"></div>
 
-                            
-          </div>
+
+                        
                     </Col>
                 </Row>
             </Container>

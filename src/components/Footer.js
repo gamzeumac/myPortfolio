@@ -34,8 +34,8 @@ const Footer = () => {
                 {/* <a className="footer-nav">About me</a> */}
                 <Link className="footer-nav text-info" smooth={true} to="about" offset={-110} >About</Link>
                 <br />
-                {/* <a className="footer-nav">Services</a> */}
-                <Link smooth={true} to="services" offset={-110} className="footer-nav text-info" href="#">Skills</Link>
+                {/* <a className="footer-nav">mySkills</a> */}
+                <Link smooth={true} to="myskills" offset={-110} className="footer-nav text-info" href="#">Skills</Link>
               </div>
               <div className="col">
                 
@@ -43,7 +43,7 @@ const Footer = () => {
                 <Link smooth={true} to="portfolio" offset={-110} className="footer-nav text-info" >Portfolio</Link>
                 <br />
                 {/* <a className="footer-nav">Contacts</a> */}
-                <Link smooth={true} to="contacts" offset={-110} className="footer-nav text-info" >Contacts</Link>
+                <Link smooth={true} to="contact" offset={-110} className="footer-nav text-info" >Contacts</Link>
               </div>
             </div>
           </div>
