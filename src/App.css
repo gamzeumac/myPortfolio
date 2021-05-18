@@ -26,9 +26,6 @@ nav a.nav-link {
   cursor: pointer;
 }
 
-nav ul li {
-  text-transform: uppercase;
-}
 
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -37,32 +34,6 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
-}
-
-@media(max-width: 768px) {
- .navbar-brand {
-   width: 7rem;
- }
-}
-/* 
-@media (min-width: 576px) {.navbar-brand {
-  width: 7rem;
-}}
-
-
-@media (min-width: 992px) { .navbar-brand {
-  width: 7rem;
-} }
-
-
-@media (min-width: 1200px) {.navbar-brand {
-  width: 7rem;
-}} */
-
 .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
@@ -70,8 +41,6 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-
-
 
 .logo {
   margin-top: 1rem;
@@ -275,6 +244,8 @@ nav a.nav-link {
 .comment {
   color: rgb(153, 153, 153);
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .dot {
@@ -330,9 +301,10 @@ nav a.nav-link {
 }
 
 
-.portfoliobg{
-  background: rgb(170, 165, 170);
+.portfolio{
+  background: rgb(85, 82, 85);
 }
 .contact{
   background-color: rgb(170, 165, 170);
 }
+

@@ -106,7 +106,20 @@
             ],
             "image": "images/Blog.png",
             "repo": "https://github.com/gamzeumac/blog"
+        },
+        {
+            "name": " Glass Web Site",
+            "url": "https://gamzeumac.github.io/GlassWebSite/",
+            "type": "Frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css"
+            ],
+            "image": "images/myGlass.png",
+            "repo": "https://github.com/gamzeumac/GlassWebSite"
         }
+        
+        
     ],
     "skills": [
         {
@@ -185,6 +198,14 @@
             "name1": "Englisch",
             "degree": "Professional working degree",
             "learning": true
+        }
+    ],
+    "result": [
+        {
+            "image":"images/thankyou.jpg"
+        },
+        {
+            "image":"images/error.jpg"
         }
     ]
 }
