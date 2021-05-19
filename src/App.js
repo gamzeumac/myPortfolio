@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Particles from "react-particles-js";
 import NavBar from './components/NavBar';
 import Header from './components/Header';
@@ -10,6 +10,7 @@ import Project from './components/Project';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+
 
 
 function App() {
