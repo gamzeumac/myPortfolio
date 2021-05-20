@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import {Container, Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
+import {Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
 import sucsess from "../images/thankyou.jpg";
-import error from "../images/error.jpg";
+
 
 
 
