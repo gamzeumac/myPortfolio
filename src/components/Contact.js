@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Form, Button, DropdownButton, Dropdown } from 'react-bootstrap';
+import { Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
 import sucsess from "../images/thankyou.jpg";
 import error from "../images/error.jpg";
 
@@ -8,7 +8,7 @@ import error from "../images/error.jpg";
 
 
 const Contact = () => {
-  const [successMessage, setSuccessMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState(false);
   const [errorMessage, seterrorMessage] = useState("");
 
   function sendEmail(e) {
@@ -17,8 +17,7 @@ const Contact = () => {
       .then(() => {
 
 
-        setSuccessMessage(<img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="" 
-        /> );
+        setSuccessMessage(true );
 
       }, (error) => {
         seterrorMessage(<img className="d-flex flex-column h-50 p-5 mx-5 thankyou " src={error} alt="" />);
@@ -28,9 +27,11 @@ const Contact = () => {
 
   return (
     <div>
+
+      {successMessage ? <img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="succes"/> : <Col className="  " xs={12} md={6} lg={12} >
       <h2 className="text-center">Contact Me</h2>
       <p className="text-center">Please fill out the form and describe you project needs and I'll contact you as soon as possible.</p>
-      <span className="success-message">{successMessage}</span>
+   
       <form as="Col" className="d-flex flex-column h-50 p-5 mx-5 contact" onSubmit={sendEmail}>
         <Form.Group controlId="exampleForm.ControlInput" >
           <Form.Label>Name</Form.Label>
@@ -60,6 +61,8 @@ const Contact = () => {
           Submit
   </Button>
       </form>
+      </Col> }
+      
     </div>
   );
 };

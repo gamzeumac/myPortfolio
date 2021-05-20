@@ -17,7 +17,7 @@ const Header = () => {
           backSpeed={70}
           loop
         />
-        <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer">contact me</Link>
+        <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer">My CV</Link>
       </div>
     </div>
   )

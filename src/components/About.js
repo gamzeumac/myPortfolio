@@ -73,13 +73,13 @@ const About = () => {
                                 <div className="dot">······</div>
                                 <span className="string">'2021-2022'</span>:<span className="string">
                                     'Digital Career Institute -- one-year intensive MERN-Stack web
-                development course'</span
+                             development course'</span
                                 >
                     ,
                   </div>
                             <div data-line-nr="13" className="code-l">
                                 <div className="dot">······</div>
-                                <span className="string">'2008-2012'</span>...<span className="string">
+                                <span className="string">'2008-2012'</span>:<span className="string">
                                     'Türkei -- Bachelor\'s Degree '</span
                                 >
                     ,
