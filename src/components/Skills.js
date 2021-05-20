@@ -47,7 +47,7 @@ const Skills = () => {
           <Col className="my-5 p-5 d-flex flex-wrap justify-content-center " xs={12} md={6} lg={6}><h4 className="w-100">Backend</h4>
             <div ><img src="images/mernn.png" alt="" /></div>
           </Col>
-          <Col className="others d-flex flex-wrap justify-content-center my-5 p-5 " xs={12} md={6} lg={6}><h4 className="w-100">Other</h4> 
+          <Col className="d-flex flex-wrap justify-content-center my-5 p-5 " xs={12} md={6} lg={6}><h4 className="w-100">Other</h4> 
             <OverlayTrigger placement="top" overlay={renderTooltip1}>
               <div  ><img src="images/vsc.png" alt="" /> </div></OverlayTrigger>
             <OverlayTrigger placement="top" overlay={renderTooltip2}>

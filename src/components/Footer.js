@@ -1,4 +1,5 @@
 import React from "react";
+import {Col} from 'react-bootstrap';
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -11,9 +12,10 @@ import { Link } from "react-scroll";
  
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="container">
-        <div className="row d-flex align-items-end">
+    <Col className="  " xs={12} md={6} lg={12} >
+    <div className="container-fluid ">
+      
+        <div className="row d-flex align-items-end bg-dark footer">
           <div className="col-lg-4 col-md-6 col-sm-6 text-info ">
             <div className="d-flex">
               <p> 46325, Borken</p>
@@ -28,18 +30,18 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col text-info">
-                {/* <a className="footer-nav">Home</a> */}
+                
                 <Link smooth={true} to="home" className="footer-nav  text-info" href="#">Home <span className="sr-only">(current)</span></Link>
                 <br />
-                {/* <a className="footer-nav">About me</a> */}
+               
                 <Link className="footer-nav text-info" smooth={true} to="about" offset={-110} >About</Link>
                 <br />
-                {/* <a className="footer-nav">mySkills</a> */}
+                
                 <Link smooth={true} to="myskills" offset={-110} className="footer-nav text-info" href="#">Skills</Link>
               </div>
               <div className="col">
                 
-                {/* <a className="footer-nav">Portfolio</a> */}
+                
                 <Link smooth={true} to="portfolio" offset={-110} className="footer-nav text-info" >Portfolio</Link>
                 <br />
                 {/* <a className="footer-nav">Contacts</a> */}
@@ -82,7 +84,8 @@ const Footer = () => {
            
         </div>
       </div>
-    </div>
+    
+    </Col>
   )
 }
 

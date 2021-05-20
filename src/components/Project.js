@@ -6,13 +6,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Project = () => {
 
   return (<>
-    <h1 className="text-uppercase text-center">Portfolio</h1>
-    <Container fluid className=" portfolio">
-      <Row className="justify-content-center">
-
-
+ 
+      <Row className="justify-content-center portfolio">
+      
+<Col  xs={12} md={12} lg={12} >   <h1 className="text-uppercase text-center">Portfolio</h1></Col>
         {data.projects.map((item, index) => {
-          return <Col lg={3} className="m-4 justify-content-center">
+          return <Col  xs={12} md={8} lg={3} className="m-4 justify-content-center">
 
             <div className="image-container">
               <img height="auto" width="100%" src={item.image} alt="images" />
@@ -40,7 +39,7 @@ const Project = () => {
         })}
 
       </Row>
-    </Container>
+
 
 
   </>)

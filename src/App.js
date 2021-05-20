@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -13,13 +14,14 @@ import Contact from './components/Contact';
 
 
 
+
 function App() {
   return (
         
       <div className="App">
         <Router>  
         <NavBar />
-        <Switch>
+        {/* <Switch>
           <Route path="/header">
             <Header />
           </Route>
@@ -36,7 +38,7 @@ function App() {
             <Contact />
           </Route>
          
-        </Switch>
+        </Switch> */}
 
 
         <Particles
@@ -60,7 +62,16 @@ function App() {
             }
           }}
         />
-        <Header /><About /><Project /><Skills /> <Contact /><Footer />
+      
+          <Header />
+          <About />
+          <Project />
+          <Skills /> 
+          <Contact />
+          <Footer />
+          
+        
+       
       </Router> 
       </div>
     
