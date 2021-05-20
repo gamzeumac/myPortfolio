@@ -1,15 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import me from "../images/me.jpg"
+
 
 const About = () => {
     return (
-        <div>
-
-            <Container fluid className="bg-dark justify-content-center about" id="about" >
-                <Row  className="justify-content-center">
-                    <Col xs={12} md={10} lg={6}><img className="me" src={me} alt="me" /></Col>
-                    <Col xs={12} md={10} lg={6} className="bg-dark">
+    
+                <Row  className="justify-content-center about"  id="about">
+                    <Col  xs={6} sm={12} md={7} lg={6}className="me"></Col>
+                    <Col  xs={6} sm={12} md={5} lg={6} className="bg-dark">
                         <h1> @About Me</h1>
                        
 
@@ -109,18 +107,13 @@ const About = () => {
                                 <span className="blinker"></span>
                   ]
                   </div>
-                            <div data-line-nr="18" className="code-l">
-                                <div className="dot">··</div>
 
-                            </div>
-                            <div data-line-nr="19" className="code-l"></div>
 
 
                         
                     </Col>
                 </Row>
-            </Container>
-        </div>
+        
     )
 }
 

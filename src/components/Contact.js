@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
+import {Container, Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
 import sucsess from "../images/thankyou.jpg";
 import error from "../images/error.jpg";
 
@@ -27,6 +27,7 @@ const Contact = () => {
 
   return (
     <div>
+      
 
       {successMessage ? <img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="succes"/> : <Col className="  " xs={12} md={6} lg={12} >
       <h2 className="text-center">Contact Me</h2>
@@ -62,7 +63,7 @@ const Contact = () => {
   </Button>
       </form>
       </Col> }
-      
+  
     </div>
   );
 };
