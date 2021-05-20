@@ -6,8 +6,8 @@ const About = () => {
     return (
     
                 <Row  className="justify-content-center about"  id="about">
-                    <Col  xs={6} sm={12} md={7} lg={6}className="me"></Col>
-                    <Col  xs={6} sm={12} md={5} lg={6} className="bg-dark">
+                    <Col  xs={12} sm={12} md={12} lg={6}className="me"></Col>
+                    <Col  xs={12} sm={12} md={12} lg={6} className="bg-dark">
                         <h1> @About Me</h1>
                        
 
