@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
                                 <span className="scope">this</span>.<span className="prop2"
                                 >dateOfBirth</span
                                 >
-                                <span className="scope">=</span> <span className="string">'01051989'</span>
+                                <span className="scope">=</span> <span className="string">'1 May'</span>
                             </div>
                             <div data-line-nr="07" className="code-l">
                                 <div className="dot">····</div>
@@ -49,12 +49,7 @@ const About = () => {
                                 <span className="scope">=</span>
                                 <span className="string">'Borken, Germany'</span>
                             </div>
-                            <div data-line-nr="08" className="code-l">
-                                <div className="dot">····</div>
-                                <span className="scope">this</span>.<span className="prop2">email</span>
-                                <span className="scope">=</span>
-                                <span className="string">'gamzeumac49@gmail.com'</span>
-                            </div>
+
                             <div data-line-nr="09" className="code-l">
                                 <div className="dot">··</div>
 

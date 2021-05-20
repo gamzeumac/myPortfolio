@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import {Container, Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
+import {Form, Button, DropdownButton, Dropdown, Col } from 'react-bootstrap';
 import sucsess from "../images/thankyou.jpg";
-import error from "../images/error.jpg";
+
 
 
 
@@ -29,7 +29,7 @@ const Contact = () => {
     <div>
       
 
-      {successMessage ? <img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="succes"/> : <Col className="  " xs={12} md={6} lg={12} >
+      {successMessage ? <img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="succes"/> : <Col className="  " xs={12} md={12} lg={12} >
       <h2 className="text-center">Contact Me</h2>
       <p className="text-center">Please fill out the form and describe you project needs and I'll contact you as soon as possible.</p>
    
@@ -43,16 +43,16 @@ const Contact = () => {
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" />
         </Form.Group>
-
-        <Form.Group controlId="exampleForm.ControlSelect">
+        <div >
+        <Form.Group  controlId="exampleForm.ControlSelect">
           <Form.Label>Example multiple select</Form.Label>
-          <DropdownButton variant="info" id="dropdown-basic-button" title="Example multiple select">
+          <DropdownButton className=" .d-none .d-md-none .d-xl-none .d-xxl-none" variant="info" id="dropdown-basic-button" title="Example multiple select">
             <Dropdown.Item href="#/action-1">I offer job for you</Dropdown.Item>
             <Dropdown.Item href="#/action-2">I need professional support for my project</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Other</Dropdown.Item>
           </DropdownButton>
 
-        </Form.Group>
+        </Form.Group></div>
         <Form.Group controlId="exampleForm.ControlTextarea">
           <Form.Label>Example textarea</Form.Label>
           <Form.Control as="textarea" rows={3} />

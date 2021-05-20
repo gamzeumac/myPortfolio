@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
  
 const Footer = () => {
   return (
-    <Col className="  " xs={12} md={6} lg={12} >
+    <Col className="  " xs={12} md={12} lg={12} >
     <div className="container-fluid ">
       
         <div className="row d-flex align-items-end bg-dark footer">
