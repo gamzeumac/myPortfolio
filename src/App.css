@@ -101,7 +101,7 @@ body {
 .me {
   background-repeat: no-repeat;
 background-position: left;
-background-size: cover;
+background-size: 100% 100%;
   background-image: url(./images/me.jpg);
   width: 20rem;
   height: 34rem;
