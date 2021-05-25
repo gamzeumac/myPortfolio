@@ -1,16 +1,29 @@
 {
     "projects": [
         {
-            "name": "Fruits Page",
-            "url": "https://gamzeumac.github.io/Fruitspage/",
-            "type": "frontend",
+            "name": " Glass Web Site",
+            "url": "https://gamzeumac.github.io/GlassWebSite/",
+            "type": "Frontend",
             "programmingLanguages": [
                 "Html",
                 "Css"
             ],
-            "image": "images/fruits.png",
-            "repo": "https://github.com/gamzeumac/Fruitspage"
+            "image": "images/myGlass.png",
+            "repo": "https://github.com/gamzeumac/GlassWebSite"
         },
+        {
+            "name": "Rock-Paper-Scissors",
+            "url": "https://gamzeumac.github.io/Rock-Paper-Scissors/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "JS"
+            ],
+            "image": "images/RockPaper.png",
+            "repo": "https://github.com/gamzeumac/Rock-Paper-Scissors"
+        },
+       
         {
             "name": " Calculator",
             "url": "https://gamzeumac.github.io/Calculator/",
@@ -107,16 +120,17 @@
             "image": "images/Blog.png",
             "repo": "https://github.com/gamzeumac/blog"
         },
+
         {
-            "name": " Glass Web Site",
-            "url": "https://gamzeumac.github.io/GlassWebSite/",
-            "type": "Frontend",
+            "name": "Fruits Page",
+            "url": "https://gamzeumac.github.io/Fruitspage/",
+            "type": "frontend",
             "programmingLanguages": [
                 "Html",
                 "Css"
             ],
-            "image": "images/myGlass.png",
-            "repo": "https://github.com/gamzeumac/GlassWebSite"
+            "image": "images/fruits.png",
+            "repo": "https://github.com/gamzeumac/Fruitspage"
         }
         
         

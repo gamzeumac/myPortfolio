@@ -7,20 +7,18 @@ import sucsess from "../images/thankyou.jpg";
 
 
 
+
 const Contact = () => {
   const [successMessage, setSuccessMessage] = useState(false);
-  const [errorMessage, seterrorMessage] = useState("");
+  
 
   function sendEmail(e) {
     e.preventDefault();
     emailjs.sendForm('serviceID', 'templateID', e.target, 'user_Gs6nx0Emi4Jrc3gFs28Vm' )
       .then(() => {
-
-
         setSuccessMessage(true );
-
       }, (error) => {
-        seterrorMessage(<img className="d-flex flex-column h-50 p-5 mx-5 thankyou " src={error} alt="" />);
+        
       });
   }
 
@@ -29,7 +27,8 @@ const Contact = () => {
     <div>
       
 
-      {successMessage ? <img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="succes"/> : <Col className="  " xs={12} md={12} lg={12} >
+      {successMessage ? <img className="d-flex flex-column h-50 p-5 mx-5 thankyou" src={sucsess} alt="success"/> : <Col className="  " xs={12} md={12} lg={12} >
+
       <h2 className="text-center">Contact Me</h2>
       <p className="text-center">Please fill out the form and describe you project needs and I'll contact you as soon as possible.</p>
    
@@ -63,6 +62,9 @@ const Contact = () => {
   </Button>
       </form>
       </Col> }
+
+
+
   
     </div>
   );
