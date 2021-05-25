@@ -7,7 +7,6 @@ const Skills = () => {
   const renderTooltip = props => (
     <Tooltip {...props}>still learning</Tooltip>
   );
-
   const renderTooltip1 = props1 => (
     <Tooltip {...props1}>Visual Studio Code</Tooltip>
   );
@@ -18,7 +17,7 @@ const Skills = () => {
     <Tooltip {...props3}>Scrum</Tooltip>
   );
   return (
-    <div >
+    <div>
       <h1 className="text-center"> My Skills</h1>
       <Container fluid className="myskills" >
         <Row className="d-flex flex-wrap justify-content-center">
