@@ -9,8 +9,7 @@ const NavBar = () => {
     <Navbar bg="dark" expand="lg">   
 <Navbar.Brand href="#home"><img className="logo" src={llogo} alt="logo..." /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-     
+      <Navbar.Collapse id="basic-navbar-nav">     
       <Nav className="ml-auto ">
           <li className="nav-item active ">
             <Link to="home" className="nav-link" href="#">@Home <span className="sr-only">(current)</span></Link>
@@ -28,12 +27,8 @@ const NavBar = () => {
           <li className="nav-item">
             <Link to="contact" className="nav-link" >@Contacts</Link>
           </li>
-
         </Nav>
-</Navbar.Collapse>
-    
-
-    
+</Navbar.Collapse>    
   </Navbar>
   )
 }
