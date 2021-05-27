@@ -131,6 +131,17 @@
             ],
             "image": "images/fruits.png",
             "repo": "https://github.com/gamzeumac/Fruitspage"
+        }, 
+        {
+            "name": " Todo App",
+            "url": "https://gamzestodo.netlify.app/",
+            "type": "full stack",
+            "programmingLanguages": [
+                "React",
+                "Css"
+            ],
+            "image": "images/todoapp.png",
+            "repo": "https://github.com/gamzeumac/Gamze-s_ToDo"
         }
         
         
