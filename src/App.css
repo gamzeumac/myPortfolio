@@ -7,10 +7,8 @@
   --primary-orange: rgb(250, 171, 0);
   
 }
-
 body {
   font-family: "Roboto Condensed", sans-serif !important;
-
 }
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -42,7 +40,6 @@ body {
   background-position: center;
   height: 100vh;
 }
-
 .main-info {
   display: flex;
   position: absolute;
@@ -56,7 +53,6 @@ body {
   text-align: center;
   z-index: 1;
 }
-
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
@@ -110,7 +106,7 @@ background-size: 100% 100%;
  
 }
 
-
+/*Projekt*/
 .image-container {
   position: relative;
   width: 100%;
@@ -165,6 +161,8 @@ background-size: 100% 100%;
 .footer p {
   margin-bottom: 0;
 }
+
+/*ABout */
 
 .resultextconfirmation{
   font-weight: bold;
@@ -252,7 +250,6 @@ background-size: 100% 100%;
 .contact{
   background-color: rgb(170, 165, 170);
 }
-
 .thankyou{
   background-repeat:no-repeat; 
   background-size: cover; 

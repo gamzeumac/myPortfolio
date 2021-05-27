@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <Navbar bg="dark" expand="lg">   
-<Navbar.Brand href="#home"><img className="logo" src={llogo} alt="logo..." /></Navbar.Brand>
+    <Navbar.Brand href="#home"><img className="logo" src={llogo} alt="logo..." /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">     
       <Nav className="ml-auto ">
@@ -28,8 +28,8 @@ const NavBar = () => {
             <Link to="contact" className="nav-link" >@Contacts</Link>
           </li>
         </Nav>
-</Navbar.Collapse>    
-  </Navbar>
+      </Navbar.Collapse>    
+    </Navbar>
   )
 }
 export default NavBar;

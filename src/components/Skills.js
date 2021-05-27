@@ -42,7 +42,6 @@ const Skills = () => {
 
             })}
           </Col>
-
           <Col className="my-5 p-5 d-flex flex-wrap justify-content-center " xs={12} md={6} lg={6}><h4 className="w-100">Backend</h4>
             <div ><img src="images/mernn.png" alt="" /></div>
           </Col>
