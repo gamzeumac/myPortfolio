@@ -5,8 +5,7 @@
   --primary-white: #ffffff;
   --primary-dark-grey: rgb(102, 102, 102);
   --primary-orange: rgb(250, 171, 0);
-  
-}
+  }
 body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
@@ -139,12 +138,12 @@ background-size: 100% 100%;
   text-align: center;
 }
 
-.icons > div {
+/* .icons > div {
   justify-content: space-between;
   align-items: baseline;
   display: inline;
   flex-wrap: wrap;
-}
+} */
 
 
 .myskills {

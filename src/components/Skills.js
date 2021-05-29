@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import data from "../data.json";
 
 const Skills = () => {
@@ -31,19 +30,20 @@ const Skills = () => {
               </div>
             })}
           </Col>
+          
+          <Col className="my-5 p-5 d-flex flex-wrap justify-content-center " xs={12} md={6} lg={6}><h4 className="w-100">Backend</h4>
+            <div ><img src="images/mernn.png" alt="" /></div>
+          </Col>
           <Col className="my-5 p-5" xs={12} md={6} lg={6}><h4 className="w-100">Language</h4>
             {data.languages.map((item, index) => {
               return <div>
                 <div>{item.name1}</div>
 
-                {item.learning ? <ProgressBar striped variant="info" now={50} /> : null}
+                {item.learning}
                 <div> {item.degree}</div>
               </div>
 
             })}
-          </Col>
-          <Col className="my-5 p-5 d-flex flex-wrap justify-content-center " xs={12} md={6} lg={6}><h4 className="w-100">Backend</h4>
-            <div ><img src="images/mernn.png" alt="" /></div>
           </Col>
           <Col className="d-flex flex-wrap justify-content-center my-5 p-5 " xs={12} md={6} lg={6}><h4 className="w-100">Other</h4> 
             <OverlayTrigger placement="top" overlay={renderTooltip1}>

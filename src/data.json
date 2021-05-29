@@ -211,17 +211,17 @@
     "languages": [
         {
             "name1": "Turkish",
-            "degree": "native",
+            
             "learning": false
         },
         {
             "name1": "German",
-            "degree": "Professional working degree",
+           
             "learning": true
         },
         {
             "name1": "Englisch",
-            "degree": "Professional working degree",
+            
             "learning": true
         }
     ],
