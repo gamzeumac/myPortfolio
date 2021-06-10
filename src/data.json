@@ -142,6 +142,17 @@
             ],
             "image": "images/todoapp.png",
             "repo": "https://github.com/gamzeumac/Gamze-s_ToDo"
+        },
+        {
+            "name": " Todo App with VueJS",
+            "url": "https://mytodowithvuejs.netlify.app/",
+            "type": "Frontend",
+            "programmingLanguages": [
+                "Vue JS",
+                "Bootstrap"
+            ],
+            "image": "images/myvuetodo.png",
+            "repo": "https://github.com/gamzeumac/Todo_with_VueJS"
         }
         
         
