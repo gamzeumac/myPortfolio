@@ -144,6 +144,17 @@
             "repo": "https://github.com/gamzeumac/Gamze-s_ToDo"
         },
         {
+            "name": " Todo App with JS",
+            "url": "https://mytodoappwithjs.netlify.app/",
+            "type": "Frontend",
+            "programmingLanguages": [
+                "Javascript ",
+                "CSS"
+            ],
+            "image": "images/jstodo.png",
+            "repo": "https://github.com/gamzeumac/ToDoApp_withJS"
+        },
+        {
             "name": " Todo App with VueJS",
             "url": "https://mytodowithvuejs.netlify.app/",
             "type": "Frontend",
@@ -154,6 +165,7 @@
             "image": "images/myvuetodo.png",
             "repo": "https://github.com/gamzeumac/Todo_with_VueJS"
         }
+   
         
         
     ],
