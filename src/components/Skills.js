@@ -15,10 +15,14 @@ const Skills = () => {
   const renderTooltip3 = props3 => (
     <Tooltip {...props3}>Scrum</Tooltip>
   );
+  const renderTooltip4 = props4 => (
+    <Tooltip {...props4}>Docker</Tooltip>
+  );
   return (
     <div>
-      <h1 className="text-center"> My Skills</h1>
+     
       <Container fluid className="myskills" >
+      <h1 className="text-center"> My Skills</h1>
         <Row className="d-flex flex-wrap justify-content-center">
           <Col className="my-5 p-5 d-flex flex-wrap justify-content-center" xs={12} md={6} lg={6}><h4 className="w-100">Frontend</h4>
             {data.skills.map((item, index) => {
@@ -32,7 +36,14 @@ const Skills = () => {
           </Col>
           
           <Col className="my-5 p-5 d-flex flex-wrap justify-content-center " xs={12} md={6} lg={6}><h4 className="w-100">Backend</h4>
-            <div ><img src="images/mernn.png" alt="" /></div>
+            {data.backend.map((item, index) => {
+              return <div>
+                {item.learning ? <OverlayTrigger placement="top" overlay={renderTooltip}>
+                  <div><img src={item.image} alt="" /></div>
+                </OverlayTrigger> : <div ><img src={item.image} alt="" /></div>}
+              </div>
+            })}
+            
           </Col>
           <Col className="my-5 p-5" xs={12} md={6} lg={6}><h4 className="w-100">Language</h4>
             {data.languages.map((item, index) => {
@@ -52,6 +63,8 @@ const Skills = () => {
               <div ><img src="images/github1.png" alt="" /></div></OverlayTrigger>
             <OverlayTrigger placement="top" overlay={renderTooltip3}>
               <div ><img src="images/agile.png" alt="" /> </div></OverlayTrigger>
+              <OverlayTrigger placement="top" overlay={renderTooltip4}>
+              <div  ><img src="images/docker.png" alt="" /> </div></OverlayTrigger>
           </Col>
         </Row>
       </Container>

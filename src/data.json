@@ -23,7 +23,6 @@
             "image": "images/RockPaper.png",
             "repo": "https://github.com/gamzeumac/Rock-Paper-Scissors"
         },
-       
         {
             "name": " Calculator",
             "url": "https://gamzeumac.github.io/Calculator/",
@@ -120,7 +119,6 @@
             "image": "images/Blog.png",
             "repo": "https://github.com/gamzeumac/blog"
         },
-
         {
             "name": "Fruits Page",
             "url": "https://gamzeumac.github.io/Fruitspage/",
@@ -131,7 +129,7 @@
             ],
             "image": "images/fruits.png",
             "repo": "https://github.com/gamzeumac/Fruitspage"
-        }, 
+        },
         {
             "name": " Todo App",
             "url": "https://gamzestodo.netlify.app/",
@@ -165,9 +163,6 @@
             "image": "images/myvuetodo.png",
             "repo": "https://github.com/gamzeumac/Todo_with_VueJS"
         }
-   
-        
-        
     ],
     "skills": [
         {
@@ -201,59 +196,52 @@
             "image": "images/sass.png"
         },
         {
-            "name": "NODEJS",
-            "type": "front-end",
-            "learning": true,
-            "image": "images/nodejs.png"
-        },
-        {
             "name": "React",
             "type": "front-end",
             "learning": true,
             "image": "images/react.png"
         },
         {
-            "name": "TypeScript",
-            "type": "front-end",
-            "learning": true,
-            "image": "images/typescript.png"
-        },
-        {
             "name": "VueJS",
             "type": "front-end",
             "learning": true,
             "image": "images/vuejs.png"
+        }
+    ],
+    "backend" : [
+        {
+            "name": "MERN",
+            "type": "backend",
+            "learning": true,
+            "image": "images/mernn.png"
         },
         {
-            "name": "Docker",
-            "type": "front-end",
+            "name": "TypeScript",
+            "type": "backend",
             "learning": true,
-            "image": "images/docker.png"
+            "image": "images/typescript.png"
         }
     ],
     "languages": [
         {
             "name1": "Turkish",
-            
             "learning": false
         },
         {
             "name1": "German",
-           
             "learning": true
         },
         {
             "name1": "Englisch",
-            
             "learning": true
         }
     ],
     "result": [
         {
-            "image":"images/thankyou.jpg"
+            "image": "images/thankyou.jpg"
         },
         {
-            "image":"images/error.jpg"
+            "image": "images/error.jpg"
         }
     ]
 }

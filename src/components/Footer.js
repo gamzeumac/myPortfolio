@@ -4,7 +4,7 @@ import { Col, Navbar, Nav } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <Col xs={12} md={12} lg={12} >       
+    <Col xs={12} md={12} lg={12} className="p-0 m-0 g-0" >       
       <Navbar bg="dark" expand="lg">
       <div className="row text-center text-white">
           <p>

@@ -6,8 +6,13 @@
   --primary-dark-grey: rgb(102, 102, 102);
   --primary-orange: rgb(250, 171, 0);
   }
+  *{
+    padding:0;
+    margin:0
+  }
 body {
   font-family: "Roboto Condensed", sans-serif !important;
+
 }
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -51,6 +56,8 @@ body {
   align-items: center;
   text-align: center;
   z-index: 1;
+  margin :0;
+  padding:0
 }
 .main-info h1 {
   color: var(--primary-orange);
