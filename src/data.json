@@ -162,6 +162,18 @@
             ],
             "image": "images/myvuetodo.png",
             "repo": "https://github.com/gamzeumac/Todo_with_VueJS"
+        },
+        {
+            "name": " Restaurant Page",
+            "url": "https://myrestaurantpage.netlify.app/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "JS"
+            ],
+            "image": "images/restaurant.png",
+            "repo": "https://github.com/gamzeumac/myRestauranPagewithJS"
         }
     ],
     "skills": [
