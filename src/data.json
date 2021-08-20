@@ -186,6 +186,18 @@
             ],
             "image": "images/favoritecolor.png",
             "repo": "https://github.com/gamzeumac/JSFINALPROJECT"
+        },
+        {
+            "name": "Table Tennis",
+            "url": "https://gamzestabletennis.netlify.app/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Html",
+                "Css",
+                "JS"
+            ],
+            "image": "images/tabletennis.png",
+            "repo": "https://github.com/gamzeumac/table-tennis"
         }
     ],
     "skills": [
