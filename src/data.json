@@ -1,15 +1,16 @@
 {
     "projects": [
         {
-            "name": " Glass Web Site",
-            "url": "https://gamzeumac.github.io/GlassWebSite/",
+            "name": " my Song Data Base",
+            "url": "https://mysongdatabase.netlify.app/",
             "type": "Frontend",
             "programmingLanguages": [
                 "Html",
-                "Css"
+                "Css",
+                "React"
             ],
-            "image": "images/myGlass.png",
-            "repo": "https://github.com/gamzeumac/GlassWebSite"
+            "image": "images/mysogdatabase.png",
+            "repo": "https://github.com/gamzeumac/mysongdatabase"
         },
         {
             "name": "Rock-Paper-Scissors",
