@@ -5,11 +5,10 @@
             "url": "https://mysongdatabase.netlify.app/",
             "type": "Frontend",
             "programmingLanguages": [
-                "Html",
-                "Css",
-                "React"
+                "React",
+                "CSS"
             ],
-            "image": "images/mysogdatabase.png",
+            "image": "images/mysongdatabase.png",
             "repo": "https://github.com/gamzeumac/mysongdatabase"
         },
         {
