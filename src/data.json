@@ -198,6 +198,17 @@
             ],
             "image": "images/tabletennis.png",
             "repo": "https://github.com/gamzeumac/table-tennis"
+        },
+        {
+            "name": "Typescript Todo",
+            "url": "https://todo-withtypescript.netlify.app/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "Typescript",
+                "Redux"                
+            ],
+            "image": "images/tdwithtypescript.png",
+            "repo": "https://github.com/gamzeumac/todowithtypescript"
         }
     ],
     "skills": [
