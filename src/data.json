@@ -209,6 +209,17 @@
             ],
             "image": "images/tdwithtypescript.png",
             "repo": "https://github.com/gamzeumac/todowithtypescript"
+        },
+        {
+            "name": " Quiz App",
+            "url": "https://mystartquiz.netlify.app/",
+            "type": "frontend",
+            "programmingLanguages": [
+                "React",
+                "Material Ui"
+            ],
+            "image": "images/quizapp.png",
+            "repo": "https://github.com/gamzeumac/startquiz"
         }
     ],
     "skills": [
