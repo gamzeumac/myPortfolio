@@ -272,13 +272,7 @@
             "type": "backend",
             "learning": true,
             "image": "images/mernn.png"
-        },
-        {
-            "name": "TypeScript",
-            "type": "backend",
-            "learning": true,
-            "image": "images/typescript.png"
-        }
+        } 
     ],
     "languages": [
         {
