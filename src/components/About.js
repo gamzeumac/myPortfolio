@@ -5,9 +5,9 @@ import { Row, Col } from 'react-bootstrap';
 const About = () => {
     return (
         <Row className="justify-content-center about" id="about">
-            <Col xs={12} sm={12} md={12} lg={6} className="me"></Col>
+            <Col xs={12} sm={12} md={12} lg={5} className="me m-3 p-3"></Col>
             <Col xs={12} sm={12} md={12} lg={6} className="bg-dark">
-                <h1> @About Me</h1>
+                <h1 className="text-light"> @About Me</h1>
                 <p className="comment">About /&gt;</p>
                 <div data-line-nr="01" className="code-l">
                     <div className="methods">className</div>
