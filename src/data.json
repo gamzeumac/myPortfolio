@@ -107,17 +107,15 @@
             "repo": "https://github.com/gamzeumac/MusicApp"
         },
         {
-            "name": " Blog",
-            "url": "https://github.com/gamzeumac/blog",
-            "type": "full stack",
+            "name": "QR Scanner",
+            "url": "https://my-qr-scanner.netlify.app/",
+            "type": "frontend",
             "programmingLanguages": [
                 "React",
-                "Next Js",
-                "Mongodb",
-                "Express Js"
+                "Material-UI"
             ],
-            "image": "images/Blog.png",
-            "repo": "https://github.com/gamzeumac/blog"
+            "image": "images/qrscanner.png",
+            "repo": "https://github.com/gamzeumac/my_qr_scanner"
         },
         {
             "name": "Fruits Page",

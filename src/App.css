@@ -98,6 +98,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  background-color: rgba(45, 48, 49, 0.8);
 }
 
 .me {
@@ -109,6 +110,7 @@ background-size: 100% 100%;
   height: 34rem;
   border-radius: 50%;
   max-height:100%; max-width:100%;
+  
  
 }
 
@@ -144,14 +146,6 @@ background-size: 100% 100%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-/* .icons > div {
-  justify-content: space-between;
-  align-items: baseline;
-  display: inline;
-  flex-wrap: wrap;
-} */
-
 
 .myskills {
   background-color: rgb(87, 84, 87);
