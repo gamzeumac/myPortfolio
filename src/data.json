@@ -84,15 +84,15 @@
             "repo": "https://github.com/gamzeumac/api"
         },
         {
-            "name": " City Guide",
-            "url": "https://github.com/gamzeumac/cityguide",
+            "name": "Scary Maze",
+            "url": "https://gamzeumac.github.io/ScaryMaze/",
             "type": "frontend",
             "programmingLanguages": [
-                "React, ",
-                "Bootstrap"
+                "HTML, ",
+                "JS ,CSS "
             ],
-            "image": "images/cityguide.png",
-            "repo": "https://github.com/gamzeumac/ReactForumPage"
+            "image": "images/scarymaze.png",
+            "repo": "https://github.com/gamzeumac/ScaryMaze"
         },
         {
             "name": " Music App",
