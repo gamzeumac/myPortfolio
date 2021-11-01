@@ -16,7 +16,7 @@ const Project = () => {
                 <div>
                   Programming Langaugeas <ul>
                     {item.programmingLanguages.map((item, index) => {
-                      return <li key={index}>{item}</li>
+                      return <a key={index}>{item}</a>
                     })}
                   </ul>
                   <a href={item.url} rel="noreferrer" target="_blank" className="btn btn-warning"  >Go to WebSite</a>
